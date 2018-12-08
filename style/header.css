@@ -72,7 +72,16 @@ h2:hover{
 	align-items: center;
 	margin-right: 40px;
 }
+.nav_elem .svggg{
+	height: 45px;
+	width: 45px;
+	background: url(../image/circle.svg) center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .nav_elem img{
+	height: 22px;
 	width: 22px;
 }
 .phone span{
@@ -93,6 +102,14 @@ h2:hover{
 .fb{
 	margin-right: 0;
 }
+
+/* NOT WORKING */
+.vk img:hover, /* NOT WORKING */
+.fb img:hover{/* NOT WORKING */
+	fill:#6776e5 !important;/* NOT WORKING */	
+}/* NOT WORKING */
+/* NOT WORKING */
+
 .nav_container{
 	width:100%;
 	border-top: 1px solid rgba(75, 85, 166, 0.15);
@@ -113,6 +130,7 @@ h2:hover{
 }
 .nav ul{
 	display: flex;
+	align-items:stretch;
 }
 .nav ul li{
 	margin-right: 60px;
