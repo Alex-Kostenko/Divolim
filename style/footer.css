@@ -1,20 +1,64 @@
 footer{
 	width: 100%;
 	background-color: #404780; 
+	padding-top: 90px;
+	font-family: 'Arimo', sans-serif;
+}
+footer a{
+	color:#9da3d1; 
+}
+h5{
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 1.37;
+	color: #ffffff;
+	margin-bottom: 35px;
 }
 .fot_container{
 	max-width: 1200px;
 	margin:0 auto;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
+	font-size: 15px;
+	color: #9da3d1;
+	line-height: 1.33;
 }
 .map{
 	margin-right: 80px;
+	height: 399px;
+	width: 370px;
 }
 .contacts{
 	margin-right: 80px;
+	display: flex;
+	flex-direction: column;
+}
+.contacts ul  li{
+	margin-bottom: 20px;
+}
+.contacts #two{
+	flex-grow: 2;
+}
+.contacts ul  li:last-child{
+	margin-bottom: 0;
 }
 .forms{
-
+	display: flex;
+	flex-direction: column;
+}
+.forms span{
+	color: #ff6675;
+}
+.forms input{
+	height: 45px;
+	width: 371px;
+	background-color: #545c99;
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 13px;
+    color: #a3a9d9; 
+}
+.text-right{
+	text-align: right;
 }

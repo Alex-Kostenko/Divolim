@@ -3,9 +3,11 @@ header{
 }
 a {
 	text-decoration: none;
+}
+header a {
 	color: #737380;
 }
-span a {
+header span a {
 	text-decoration: none;
 	color: #737380;
 }
@@ -21,7 +23,7 @@ h2{
   	color: #737380;
   	font-family: 'Arimo', sans-serif;
 }
-a:hover {
+header a:hover {
 	color: #6776e5;
 }
 h1:hover{
