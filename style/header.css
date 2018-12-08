@@ -1,0 +1,37 @@
+header{
+	background: rgba(242, 243, 249, 0.7);
+}
+.container{
+	margin: 0 auto;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 0;
+	
+}
+.container a {
+	text-decoration: none;
+}
+.container a img{
+	width: 66px;
+	height: 66px;
+	margin-right: 16px;
+}
+.title{
+	text-align: left;
+	display: flex;
+	align-items: center;
+}
+h1{
+	font-family: 'Arimo', sans-serif;
+  	font-size: 26px;
+  	line-height: 1.12;
+  	color: #2b2b38;
+}
+h2{
+	font-family: Arimo;
+ 	font-size: 11px;
+  	color: #737380;
+}
