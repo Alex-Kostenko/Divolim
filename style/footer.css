@@ -2,6 +2,7 @@ footer{
 	width: 100%;
 	background-color: #404780; 
 	padding-top: 90px;
+	padding-bottom: 80px;
 	font-family: 'Arimo', sans-serif;
 }
 footer a{
@@ -19,7 +20,7 @@ h5{
 	margin:0 auto;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	font-size: 15px;
 	color: #9da3d1;
 	line-height: 1.33;
@@ -34,11 +35,15 @@ h5{
 	display: flex;
 	flex-direction: column;
 }
+.contacts h5{
+	width: 265px;
+}
+
 .contacts ul  li{
 	margin-bottom: 20px;
 }
-.contacts #two{
-	flex-grow: 2;
+.forms #seccc{
+
 }
 .contacts ul  li:last-child{
 	margin-bottom: 0;
@@ -50,15 +55,72 @@ h5{
 .forms span{
 	color: #ff6675;
 }
+.forms form span{
+	color: #ff6675;
+	margin-right: -25px;
+	position: relative;
+	z-index: 999;
+}
 .forms input{
 	height: 45px;
-	width: 371px;
+	width: 355px;
 	background-color: #545c99;
     border-radius: 8px;
     border: 0;
     margin-bottom: 13px;
-    color: #a3a9d9; 
+    color: #a3a9d9;
+    padding-left: 30px;
+}
+.forms ::-webkit-input-placeholder{ 
+	color: #a3a9d9;
+	font-family: 'Arimo', sans-serif;
+}
+.forms ::-moz-placeholder{ 
+	color: #a3a9d9;
+	font-family: 'Arimo', sans-serif;
 }
 .text-right{
 	text-align: right;
+}
+.forms textarea{
+	height: 135px;
+	width: 355px;
+	border-radius: 8px;
+	color: #a3a9d9;
+	background-color: #545c99;
+	border: 0;
+	font-family: Arimo;
+  	font-size: 15px;
+  	padding: 16px 16px;
+  	margin-left: -15px;
+}
+input[type="submit"] { 
+    height: auto;
+	width: auto; 
+	padding: 16px 45px;
+	border-radius: 22.5px;
+	background-color: #ffe700; 
+	font-size: 15px;
+	line-height: 1.33;
+	color: #2b2b38;
+	margin-top: 20px;
+   }
+.forms form input:focus,
+.forms form input:hover,
+.forms form textarea:focus,
+.forms form textarea:hover{
+	border:2px solid #ffe700;
+	transition:  0.2s;
+}
+.forms form input[type="submit"]:focus{
+	border:0;
+}
+.forms form input[type="submit"]:click{
+	background-color: #f7d600;
+	transition:  0.2s;
+}
+.forms form input[type="submit"]:hover{
+	box-shadow: 0 7px 15px 0 rgba(0,0,0,0.07) !important;
+	border:0;
+	transition:  0.2s;
 }
