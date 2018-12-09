@@ -1,0 +1,322 @@
+.slider-main-page{
+  height: 500px;
+  background-color: #4b55a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15%;
+  color: #ffffff;
+}
+.slider-item{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.slider-text{
+  font-family: "Arimo", sans-serif;
+  display: flex;
+  flex-flow: column nowrap;
+  overflow: hidden;
+  max-width: 40%;
+  word-wrap: break-word;
+  word-break: normal;
+}
+.slider-head{
+  font-size: 38px;
+}
+.slider-description{
+  margin-top: 25px;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 1.65em;
+}
+.slider-button{
+  margin-top: 25px;
+  max-width: 200px;
+  height: 45px;
+  background: #ffe700;
+  border: none;
+  border-radius: 45px;
+}
+.slider-button:hover{
+  box-shadow: 0px 7px 15px 0px  rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+.slide-change-block{
+  background-color: rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  font-size: 16px;
+  padding: 0 15px;
+  margin-top: 123px;
+}
+.slide-change-block button{
+  color: white;
+  background: none;
+  border: none;
+}
+.slider-photo{
+  background-size: cover;
+  height: 500px;
+  width: 60%;
+  overflow: hidden;
+}
+.slider-photo1{
+  background-image: url("../image/rol_shtoru/ZpEnmn7.jpeg");
+  background-size: cover;
+}
+.slider-photo2{
+  background-image: url("../image/rimskie/05.jpg");
+  background-size: cover;
+}
+.slider-photo3{
+  background-image: url("../image/vertical/e4DUh9p.jpeg");
+  background-size: cover;
+}
+.slider-photo4{
+  background-image: url("../image/gorizont/GRpAscJ.jpeg");
+  background-size: cover;
+}
+.production-news{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.production-news h2{
+  font-family: "Arimo", sans-serif;
+  font-size: 36px;
+  color: #333343;
+}
+.svg-menu{
+  display: flex;
+  flex-direction: column;
+}
+.svg-str{
+  display: flex;
+  margin-top: 62px;
+}
+.svg-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+.svg-item button{
+  margin-top: 14px;
+  border: none;
+  border-radius: 45px;
+  font-size: 16px;
+  background: #ffe700;
+  font-family: "Arimo", sans-serif;
+  padding: 5px 10px;
+}
+.svg-item:hover button{
+  box-shadow: 0px 7px 15px 0px  rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+.svg-item:hover use{
+  stroke: #6776e5;
+  fill: #6776e5;
+}
+.news{
+  margin-left: 77px;
+}
+.news h2{
+  margin-bottom: 62px;
+}
+article{
+  max-width: 360px;
+}
+article h3 {
+  font-family: "Arimo", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #2b2b38;
+  margin-bottom: 8px;
+}
+article p{
+  /*margin-top: 10px;*/
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  color: #2b2b38;
+  line-height: 22px;
+}
+.date{
+  font-family: "Arimo", sans-serif;
+  font-size: 13px;
+  color: #737380;
+  padding-bottom: 18px;
+  border-bottom: 1px solid rgba(76,88,173,0.15);
+  margin-bottom: 18px;
+}
+.repair{
+  margin-top: 120px;
+  background: #ffe700;
+  height: 560px;
+  display: flex;
+}
+.repair-image{
+  background-image: url("../image/remont.png");
+  width: 40%;
+  height: 560px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+}
+.repair-icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-top: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.repair-text{
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin-left: 55px;
+}
+.repair-text h2{
+  margin-top: 85px;
+  font-family: "Arimo", sans-serif;
+  font-size: 36px;
+}
+.repair-description{
+  margin-top: 20px;
+  font-family: "Arimo", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+.repair-phone-us{
+  margin-top: 60px;
+  margin-bottom: 25px;
+  font-family: "Arimo", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 22px;
+}
+.mobile-phone{
+  font-family: "Arimo", sans-serif;
+  font-size: 26px;
+  line-height: 39px;
+}
+.gallery-main-page{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.gallery-main-page h2{
+  font-family: "Arimo", sans-serif;
+  font-size: 36px;
+  color: #272645;
+}
+table img{
+  padding: 3px;
+  width: 281px;
+  height: 210px;
+}
+table video{
+  width: 560px;
+  height: 420px;
+}
+.more-photo-button{
+  margin-top: 40px;
+  width: 200px;
+  height: 45px;
+  background: #ffe700;
+  border: none;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.more-photo-button:hover{
+  box-shadow: 0px 7px 15px 0px  rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+.wrapper-gallery{
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+}
+.gallery-on{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-on h2{
+  margin-bottom: 27px;
+}
+.gallery-str{
+  display: flex;
+  margin-top: 15px;
+}
+.twoXtwo{
+  width: 577px;
+  height: 434px;
+  display: flex;
+  flex-direction: column;
+}
+.str-gallery{
+  display: flex;
+}
+.twoXtwo1Element{
+  background-image: url("../image/gelleryMainPage/1.jpg");
+  margin: 0 15px 15px 0;
+}
+.twoXtwo2Element{
+  background-image: url("../image/gelleryMainPage/2.jpeg");
+}
+.twoXtwo3Element{
+  background-image: url("../image/gelleryMainPage/3.jpg");
+  margin: 0 15px 0 0;
+}
+.twoXtwo4Element{
+  background-image: url("../image/gelleryMainPage/4.jpg");
+}
+.twoXtwo5Element{
+  background-image: url("../image/gelleryMainPage/5.jpg");
+  margin-right: 15px;
+}
+.twoXtwo6Element{
+  background-image: url("../image/gelleryMainPage/6.jpeg");
+  margin-right: 15px;
+}
+.twoXtwo7Element{
+  background-image: url("../image/gelleryMainPage/7.jpeg");
+  margin-right: 15px;
+}
+.twoXtwo8Element{
+  background-image: url("../image/gelleryMainPage/8.jpeg");
+}
+.twoXtwoElementSize{
+  width: 281px;
+  height: 210px;
+  background-size: cover;
+}
+.twoXtwoElementSize:hover{
+  cursor: pointer;
+  box-shadow: 0px 7px 15px 0px  rgba(0,0,0,0.3);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.05);
+}
+.video-gallery-main-page{
+  width: 577px;
+  height: 435px;
+}
+.gallery-str iframe{
+  margin-left: 15px;
+}
+.button-center{
+  display: flex;
+  justify-content: center;
+}
