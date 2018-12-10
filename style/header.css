@@ -1,0 +1,148 @@
+header{
+	background: rgba(242, 243, 249, 0.7);
+}
+a {
+	text-decoration: none;
+}
+header a {
+	color: #737380;
+}
+header span a {
+	text-decoration: none;
+	color: #737380;
+}
+h1{
+  	font-size: 26px;
+  	line-height: 1.12;
+  	color: #2b2b38;
+  	font-family: 'Arimo', sans-serif;
+}
+
+h2{
+ 	font-size: 11px;
+  	color: #737380;
+  	font-family: 'Arimo', sans-serif;
+}
+header a:hover {
+	color: #6776e5;
+}
+h1:hover{
+  	color: #6776e5;
+}
+h2:hover{
+ 	color: #6776e5;
+}
+.container{
+	margin: 0 auto;
+	max-width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 0;
+	font-family: 'Arimo', sans-serif;
+  	font-size: 13px;
+  	color: #737380;
+}
+.title a img{
+	width: 66px;
+	height: 66px;
+	margin-right: 16px;
+}
+.title{
+	text-align: left;
+	display: flex;
+	align-items: center;
+}
+.container span{
+	line-height: 1.62;
+	margin-left: 13px;
+}
+.nav_elem{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.phone, 
+.viber,
+.location,
+.mail,
+.vk,
+.fb{
+	display: flex;
+	align-items: center;
+	margin-right: 40px;
+}
+.nav_elem .svggg{
+	height: 45px;
+	width: 45px;
+	background: url(../image/circle.svg) center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav_elem img{
+	height: 22px;
+	width: 22px;
+}
+.phone span{
+	width: 89px;
+}
+.viber{
+	
+}
+.location span{
+	width: 181px;
+}
+.mail{
+	
+}
+.vk{
+	margin-right: 30px;
+}
+.fb{
+	margin-right: 0;
+}
+
+/* NOT WORKING */
+.vk img:hover, /* NOT WORKING */
+.fb img:hover{/* NOT WORKING */
+	fill:#6776e5 !important;/* NOT WORKING */	
+}/* NOT WORKING */
+/* NOT WORKING */
+
+.nav_container{
+	width:100%;
+	border-top: 1px solid rgba(75, 85, 166, 0.15);
+	box-shadow: 0px 5px 15px 0 rgba(0, 0, 0, 0.07);
+}
+.nav{
+	max-width: 1200px;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 0 auto;
+	color: #2b2b38;
+	line-height: 1.33;
+	font-size: 15px;
+	font-family: 'Arimo', sans-serif;
+	font-weight: bold;
+}
+.nav ul{
+	display: flex;
+	align-items:stretch;
+}
+.nav ul li{
+	margin-right: 60px;
+}
+.nav #one{
+	flex-grow: 2; 
+}
+.dollar{
+
+}
+.dollar span{
+	font-weight: normal;
+}
