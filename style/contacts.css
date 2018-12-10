@@ -1,0 +1,119 @@
+.main-wrapper-contacts{
+  display: flex;
+  justify-content: center;
+}
+.contacts-all-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.h2-contacts{
+  font-family: "Arimo", sans-serif;
+  font-size: 38px;
+  font-weight: normal;
+  color: #2b2b38;
+  margin-bottom: 50px;
+}
+.company-description{
+  font-family: "Arimo", sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
+  color: #2b2b38;
+  max-width: 570px;
+}
+.contacts-content{
+  display: flex;
+  justify-content: center;
+}
+.contacts-str{
+  margin-top: 50px;
+  display: flex;
+  color: #2C2C38;
+}
+.contacts-element{
+  width: 350px;
+  display: flex;
+  align-items: flex-start;
+  color: #2C2C38;
+}
+.contacts-header{
+  margin-bottom: 20px;
+  font-family: "Arimo", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+}
+.description-contacts{
+  max-width: 230px;
+  margin-left: 20px;
+  color: #2C2C38;
+}
+.description-contacts-description{
+  font-family: "Arimo", sans-serif;
+  font-size: 15px;
+  line-height: 1.5em;
+}
+.form-description{
+  font-family: "Arimo", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.hint-form{
+  font-family: "Arimo", sans-serif;
+  font-size: 14px;
+  color: #656575;
+  text-align: right;
+  margin-right: 15px;
+  margin-bottom: 12px;
+}
+.hint-form span{
+  color: #ff6675;
+}
+.form-contacts{
+  display: flex;
+  flex-direction: column;
+  max-width: 371px;
+}
+.form-contacts input{
+  width: 370px;
+  height: 45px;
+  padding-left: 15px;
+  border: 1px solid #c0c4e0;
+  border-radius: 10px;
+  background-color: #fafbfd;
+  margin-bottom: 13px;
+  font-family: "Arimo", sans-serif;
+  font-size: 15px;
+  color: #a3a9d9;
+}
+.form-contacts ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #a3a9d9;
+  opacity: 1; /* Firefox */
+}
+
+.form-contacts :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #a3a9d9;
+}
+
+.form-contacts ::-ms-input-placeholder { /* Microsoft Edge */
+  color: #a3a9d9;
+}
+.form-contacts button{
+  width: 200px;
+  height: 45px;
+  background: #ffe700;
+  border: none;
+  border-radius: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Arimo", sans-serif;
+  font-size: 15px;
+  align-self: flex-end;
+  color: #2b2b38;
+}
+.form-contacts button:hover{
+  box-shadow: 0px 7px 15px 0px  rgba(0,0,0,0.3);
+  cursor: pointer;
+}
