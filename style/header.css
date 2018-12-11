@@ -1,7 +1,7 @@
 header{
 	background: rgba(242, 243, 249, 0.7);
 }
-a {
+header a {
 	text-decoration: none;
 }
 header a {
@@ -11,14 +11,14 @@ header span a {
 	text-decoration: none;
 	color: #737380;
 }
-h1{
+header h1{
   	font-size: 26px;
   	line-height: 1.12;
   	color: #2b2b38;
   	font-family: 'Arimo', sans-serif;
 }
 
-h2{
+header h2{
  	font-size: 11px;
   	color: #737380;
   	font-family: 'Arimo', sans-serif;
@@ -26,10 +26,10 @@ h2{
 header a:hover {
 	color: #6776e5;
 }
-h1:hover{
+header h1:hover{
   	color: #6776e5;
 }
-h2:hover{
+header h2:hover{
  	color: #6776e5;
 }
 .container{
