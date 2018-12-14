@@ -1,3 +1,6 @@
+a{
+  text-decoration: none;
+}
 .slider-main-page{
   height: 500px;
   background-color: #4b55a6;
@@ -230,6 +233,7 @@ table video{
   height: 420px;
 }
 .more-photo-button{
+  text-decoration: none;
   margin-top: 40px;
   width: 200px;
   height: 45px;
@@ -322,4 +326,5 @@ table video{
 .button-center{
   display: flex;
   justify-content: center;
+  text-decoration: none;
 }

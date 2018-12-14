@@ -48,3 +48,45 @@
 .portfolio-galerry iframe{
   margin-bottom: 80px;
 }
+.gallery-potfolio{
+  width: 870px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.gallery-potfolio img{
+  width: 280px;
+  height: 210px;
+  margin-bottom: 15px;
+}
+.switch-gallery{
+  width: 246px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.switch-gallery div{
+  color: #4b55a6;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.switch-gallery button{
+  width: 45px;
+  height: 45px;
+  color: #4b55a6;
+  background: none;
+  border: none;
+  border-radius: 50%;
+}
+.switch-gallery button:hover{
+  background-color: #ffe700;
+  box-shadow: 0px 7px 15px 0px  rgba(0,0,0,0.15);
+}
+.selected-page-gallery{
+  background-color: none;
+  border: none;
+  border-radius: 50%;
+}
