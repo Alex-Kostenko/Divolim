@@ -1,0 +1,140 @@
+.production{
+
+}
+.production a{
+	text-decoration: none;
+}
+.production .wrap_prod{
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.wrap_prod .nav_left h4{
+	font-family: Arimo;
+  	font-size: 20px;
+  	font-weight: bold;
+  	line-height: 1.83;
+  	color: #2b2b38;
+  	width: 239px;
+  	border-bottom: 1px solid rgba(75, 85, 166, 0.15);;
+  	padding-bottom: 11px;
+  	margin-top: 14px;
+}
+.production .main_prod{
+	margin-left: 55px;
+	flex-grow: 2;
+}
+.production .main_prod h5{
+	font-family: Arimo;
+	font-size: 36.5px;
+	line-height: 1.37;
+	color: #2b2b38;
+	margin-bottom: 40px;
+
+}
+.production .main_prod .title{
+	font-family: Arimo;
+	font-size: 16.5px;
+	line-height: 1.61;
+	color: #2b2b38;
+	margin-bottom: 45px;
+}
+.nav_item{
+	margin-top: 25px;
+}
+ul.nav_item li{
+	height: 28.3px;
+	margin-bottom: 0px;
+	font-family: Arimo;
+    font-size: 15px;
+    line-height: 2;
+    color: #4b55a6;
+}
+ul.nav_item a{
+	color: #4b55a6;
+	text-decoration: none;
+}
+ul.nav_item a:hover{
+    color: #6776e6;
+}
+ul.nav_item li:last-child{
+	margin-bottom: 0;
+}
+.main_prod .wrap_card{
+	display: flex;
+	flex-direction: row;
+  	flex-wrap: wrap;
+  	justify-content: center;
+}
+.main_prod .card:hover{
+	box-shadow: 0 7px 15px 0 rgba(0,0,0,0.7)
+}
+.wrap_card .card{
+	width:281px;
+	margin-right: 14px; 
+	margin-bottom: 14px;
+}
+.wrap_card .card img{
+	width:281px;
+	height: 210px;
+}
+.card .bottom_wrap{
+	margin-top: -3px;
+	width: 100%;
+	height: 80px;
+	background-color: #ffe700;
+	font-family: Arimo;
+  	font-size: 16.5px;
+  	line-height: 1.61;
+  	color: #2b2b38;
+  	display: flex;
+  	align-items: center;
+  	font-weight: bold;
+}
+.card .bottom_wrap img{
+	width: 46px;
+	margin-left: 13px;
+	margin-right: 20px;
+}
+.main_prod .remont_prod{
+	display: flex;
+	margin-top: 50px;
+	background-color: #f2f3f9;
+	padding-top: 47px;
+	padding-bottom: 36px;
+}
+.main_prod .remont_prod img{
+	margin-left: 46px;
+	margin-right: 50px;
+	width: 44px;
+	height: 44px;
+}
+.remont_prod .text_title{
+	font-family: Arimo;
+  	font-size: 26.5px;
+	margin-bottom: 15px;
+  	color: #2b2b38;
+}
+.remont_prod .text_text{
+	font-family: Arimo;
+  	font-size: 16.5px;
+  	line-height: 1.61;
+  	margin-bottom: 25px;
+  	color: #2b2b38;
+  	width: 90%;
+}
+.remont_prod .text_rem{
+	font-family: Arimo;
+ 	font-size: 16.5px;
+  	font-weight: bold;
+  	margin-bottom: 15px;
+  	color: #2b2b38;
+}
+.remont_prod .text_contact{
+	font-family: Arimo;
+  	font-size: 19px;
+  	color: #2b2b38;
+}
