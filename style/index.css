@@ -1,6 +1,9 @@
 a{
   text-decoration: none;
 }
+body{
+  overflow-x: hidden;
+}
 .slider-main-page{
   height: 500px;
   background-color: #4b55a6;

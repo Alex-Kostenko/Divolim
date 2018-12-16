@@ -21,6 +21,10 @@
 	.phone, .viber, .location, .mail, .vk, .fb{
 		display: none;
 	}
+	.production-news{
+		flex-direction: column;
+
+	}
 } 
 
 @media only screen and (max-width: 1200px) {
