@@ -90,3 +90,22 @@
   border: none;
   border-radius: 50%;
 }
+.subcategory-block{
+  margin-left: 60px;
+  width: 870px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.subcategory-block h3{
+  width: 870px;
+  font-family: "Arimo", sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+  padding-bottom: 15px;
+}
+.subcategory-block img{
+  width: 280px;
+  height: 210px;
+  margin-top: 15px;
+}

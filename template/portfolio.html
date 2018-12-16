@@ -8,22 +8,23 @@
     <link rel="stylesheet" href="../style/reset.css">
     <link rel="stylesheet" href="../style/portfolio.css">
     <script src="../js/slides-portfolio.js"></script>
+    <script src="../js/portfolioShowBlocks.js"></script>
 </head>
 <body>
     <div class="wrapper-portfolio">
         <div class="menu-portfolio">
             <h3>Наші роботи</h3>
-            <a>Ролові штори</a>
-            <a>Горизонтальні жалюзі</a>
-            <a>Вертикальні жалюзі</a>
-            <a>Пліссе</a>
-            <a>Римські штори</a>
-            <a>Бамбукові штори</a>
-            <a>Антимоскітні сітки</a>
-            <a>Ролети захисні</a>
-            <a>Вікна та двері ПВХ</a>
+            <a onclick="showRoleCurtainsBlock()">Ролові штори</a>
+            <a onclick="showGorizontalBlock()">Горизонтальні жалюзі</a>
+            <a onclick="showVerticalBlock()">Вертикальні жалюзі</a>
+            <a onclick="showPlisseBlock()">Пліссе</a>
+            <a onclick="showRomanBlock()">Римські штори</a>
+            <a onclick="showBambooBlock()">Бамбукові штори</a>
+            <a onclick="showAntimosquitoBlock()">Антимоскітні сітки</a>
+            <a onclick="showRollsBlock()">Ролети захисні</a>
+            <a onclick="showWadBlock()">Вікна та двері ПВХ</a>
         </div>
-        <div class="portfolio-galerry">
+        <div class="portfolio-galerry" id="portfolio-galerry">
             <h2>Наші роботи</h2>
             <h3>Відео</h3>
             <iframe width="870" height="488"
@@ -119,6 +120,203 @@
                 <div class="selected-page-gallery">3</div>
                 <button onclick="plusDivs(+1)"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
             </div>
+        </div>
+        <div class="subcategory-block" id="role-curtains-block" style="display: none">
+            <h3>Ролові штори</h3>
+            <img src="../image/rol_shtoru/EP7DSkl.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/M13cEGG.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/MjExUVx.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/MnhfTtj.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/nfRI11Y.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/t1lvWuV.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ufLdwM4.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/xH6JyKt.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ymukm40.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
+        </div>
+
+        <div class="subcategory-block" id="gorizontal" style="display: none">
+            <h3>Горизонтальні жалюзі</h3>
+            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
+            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+        </div>
+
+        <div class="subcategory-block" id="vertical" style="display: none">
+            <h3>Вертикальні жалюзі</h3>
+            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
+            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+        </div>
+
+        <div class="subcategory-block" id="plisse" style="display: none">
+            <h3>Пліссе</h3>
+            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
+            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+        </div>
+
+        <div class="subcategory-block" id="roman-curtains" style="display: none">
+            <h3>Римські штори</h3>
+            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
+            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+        </div>
+
+        <div class="subcategory-block" id="bamboo-curtains" style="display: none">
+            <h3>Бамбукові штори</h3>
+            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
+            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+        </div>
+
+        <div class="subcategory-block" id="antimosquito" style="display: none">
+            <h3>Антимоскітні сітки</h3>
+            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
+            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+        </div>
+
+        <div class="subcategory-block" id="rolls-protective" style="display: none">
+            <h3>Ролети захисні</h3>
+            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
+            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+        </div>
+
+        <div class="subcategory-block" id="wad" style="display: none">
+            <h3>Вікна та двері ПВХ</h3>
+            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
+            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
+            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
+            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
+            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
         </div>
     </div>
 
