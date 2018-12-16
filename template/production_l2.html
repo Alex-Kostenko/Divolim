@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="../style/footer.css">
 	<link rel="stylesheet" href="../style/production.css">
 	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/main.js"></script>
 </head>
 <body>
 	<section class="production">
@@ -17,9 +18,9 @@
 			<div class="nav_left">
 				<h4>Роловые шторы</h4>
 				<ul class="nav_item">	
-						<li><a href="#">День-ночь</a></li>
-						<li><a href="#">Открытого типа</a></li>
-						<li><a href="#">Закрытого типа</a></li>
+						<li><a onclick="showUniversal()">День-ночь</a></li>
+						<li><a onclick="showOpen()">Открытого типа</a></li>
+						<li><a onclick="showClose()">Закрытого типа</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -69,13 +70,13 @@
 				</div>
 			</div>	
 		</div>
-		<div class="wrap_prod">
+		<div class="wrap_prod" id="showUniversal" style="display: none;">
 			<div class="nav_left">
 				<h4>Роловые шторы</h4>
 				<ul class="nav_item">	
-						<li><a href="#">День-ночь</a></li>
-						<li><a href="#">Открытого типа</a></li>
-						<li><a href="#">Закрытого типа</a></li>
+						<li><a onclick="showUniversal()">День-ночь</a></li>
+						<li><a onclick="showOpen()">Открытого типа</a></li>
+						<li><a onclick="showClose()">Закрытого типа</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -155,13 +156,13 @@
 			</div>
 			</div>
 		</div>
-		<div class="wrap_prod">
+		<div class="wrap_prod" id="showOpen" style="display: none;">
 			<div class="nav_left">
 				<h4>Роловые шторы</h4>
 				<ul class="nav_item">	
-						<li><a href="#">День-ночь</a></li>
-						<li><a href="#">Открытого типа</a></li>
-						<li><a href="#">Закрытого типа</a></li>
+						<li><a onclick="showUniversal()">День-ночь</a></li>
+						<li><a onclick="showOpen()">Открытого типа</a></li>
+						<li><a onclick="showClose()">Закрытого типа</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -239,13 +240,13 @@
 				</div>
 			</div>
 		</div>
-		<div class="wrap_prod">
+		<div class="wrap_prod" id="showClose" style="display: none;">
 			<div class="nav_left">
 				<h4>Роловые шторы</h4>
 				<ul class="nav_item">	
-						<li><a href="#">День-ночь</a></li>
-						<li><a href="#">Открытого типа</a></li>
-						<li><a href="#">Закрытого типа</a></li>
+						<li><a onclick="showUniversal()">День-ночь</a></li>
+						<li><a onclick="showOpen()">Открытого типа</a></li>
+						<li><a onclick="showClose()">Закрытого типа</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">

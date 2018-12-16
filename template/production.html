@@ -9,23 +9,24 @@
 	<link rel="stylesheet" href="../style/header.css">
 	<link rel="stylesheet" href="../style/footer.css">
 	<link rel="stylesheet" href="../style/production.css">
+	<script src="../js/main.js"></script>
 	<script src="../js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
-	<section class="production">
+	<section class="production" id="production">
 		<div class="wrap_prod">
 			<div class="nav_left">
 				<h4>Продукция</h4>
 				<ul class="nav_item">	
 						<li><a href="production_l2.html">Роловые шторы</a></li>
-						<li><a href="#">Горизонтальные жалюзи</a></li>
-						<li><a href="#">Вертикальные жалюзи</a></li>
-						<li><a href="#">Плиссе</a></li>
-						<li><a href="#">Римские шторы </a></li>
-						<li><a href="#">Бамбуковые шторы</a></li>
-						<li><a href="#">Антимоскитные сетки</a></li>
-						<li><a href="#">Ролеты защитные</a> </li>
-						<li><a href="#">Окна и двери ПВХ</a></li>
+						<li><a onclick="showGorizontal()">Горизонтальные жалюзи</a></li>
+						<li><a onclick="showAlign()">Вертикальные жалюзи</a></li>
+						<li><a onclick="showPlisse()">Плиссе</a></li>
+						<li><a onclick="showRim()">Римские шторы </a></li>
+						<li><a onclick="showBamb()">Бамбуковые шторы</a></li>
+						<li><a onclick="showAnti()">Антимоскитные сетки</a></li>
+						<li><a onclick="showRoletu()">Ролеты защитные</a> </li>
+						<li><a onclick="showOkna_dv()">Окна и двери ПВХ</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -155,19 +156,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="wrap_prod">
+		<div class="wrap_prod" id="showGorizontal" style="display: none;">
 			<div class="nav_left">
 				<h4>Продукция</h4>
 				<ul class="nav_item">	
 						<li><a href="production_l2.html">Роловые шторы</a></li>
-						<li><a href="#">Горизонтальные жалюзи</a></li>
-						<li><a href="#">Вертикальные жалюзи</a></li>
-						<li><a href="#">Плиссе</a></li>
-						<li><a href="#">Римские шторы </a></li>
-						<li><a href="#">Бамбуковые шторы</a></li>
-						<li><a href="#">Антимоскитные сетки</a></li>
-						<li><a href="#">Ролеты защитные</a> </li>
-						<li><a href="#">Окна и двери ПВХ</a></li>
+						<li><a onclick="showGorizontal()">Горизонтальные жалюзи</a></li>
+						<li><a onclick="showAlign()">Вертикальные жалюзи</a></li>
+						<li><a onclick="showPlisse()">Плиссе</a></li>
+						<li><a onclick="showRim()">Римские шторы </a></li>
+						<li><a onclick="showBamb()">Бамбуковые шторы</a></li>
+						<li><a onclick="showAnti()">Антимоскитные сетки</a></li>
+						<li><a onclick="showRoletu()">Ролеты защитные</a> </li>
+						<li><a onclick="showOkna_dv()">Окна и двери ПВХ</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -242,19 +243,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="wrap_prod">
+		<div class="wrap_prod" id="showAlign" style="display: none;">
 			<div class="nav_left">
 				<h4>Продукция</h4>
 				<ul class="nav_item">	
 						<li><a href="production_l2.html">Роловые шторы</a></li>
-						<li><a href="#">Горизонтальные жалюзи</a></li>
-						<li><a href="#">Вертикальные жалюзи</a></li>
-						<li><a href="#">Плиссе</a></li>
-						<li><a href="#">Римские шторы </a></li>
-						<li><a href="#">Бамбуковые шторы</a></li>
-						<li><a href="#">Антимоскитные сетки</a></li>
-						<li><a href="#">Ролеты защитные</a> </li>
-						<li><a href="#">Окна и двери ПВХ</a></li>
+						<li><a onclick="showGorizontal()">Горизонтальные жалюзи</a></li>
+						<li><a onclick="showAlign()">Вертикальные жалюзи</a></li>
+						<li><a onclick="showPlisse()">Плиссе</a></li>
+						<li><a onclick="showRim()">Римские шторы </a></li>
+						<li><a onclick="showBamb()">Бамбуковые шторы</a></li>
+						<li><a onclick="showAnti()">Антимоскитные сетки</a></li>
+						<li><a onclick="showRoletu()">Ролеты защитные</a> </li>
+						<li><a onclick="showOkna_dv()">Окна и двери ПВХ</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -339,19 +340,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="wrap_prod">
+		<div class="wrap_prod" id="showPlisse" style="display: none;">
 			<div class="nav_left">
 				<h4>Продукция</h4>
 				<ul class="nav_item">	
 						<li><a href="production_l2.html">Роловые шторы</a></li>
-						<li><a href="#">Горизонтальные жалюзи</a></li>
-						<li><a href="#">Вертикальные жалюзи</a></li>
-						<li><a href="#">Плиссе</a></li>
-						<li><a href="#">Римские шторы </a></li>
-						<li><a href="#">Бамбуковые шторы</a></li>
-						<li><a href="#">Антимоскитные сетки</a></li>
-						<li><a href="#">Ролеты защитные</a> </li>
-						<li><a href="#">Окна и двери ПВХ</a></li>
+						<li><a onclick="showGorizontal()">Горизонтальные жалюзи</a></li>
+						<li><a onclick="showAlign()">Вертикальные жалюзи</a></li>
+						<li><a onclick="showPlisse()">Плиссе</a></li>
+						<li><a onclick="showRim()">Римские шторы </a></li>
+						<li><a onclick="showBamb()">Бамбуковые шторы</a></li>
+						<li><a onclick="showAnti()">Антимоскитные сетки</a></li>
+						<li><a onclick="showRoletu()">Ролеты защитные</a> </li>
+						<li><a onclick="showOkna_dv()">Окна и двери ПВХ</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -430,20 +431,20 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="wrap_prod">
+		</div> 
+		<div class="wrap_prod" id="showRim" style="display: none;">
 			<div class="nav_left">
 				<h4>Продукция</h4>
 				<ul class="nav_item">	
 						<li><a href="production_l2.html">Роловые шторы</a></li>
-						<li><a href="#">Горизонтальные жалюзи</a></li>
-						<li><a href="#">Вертикальные жалюзи</a></li>
-						<li><a href="#">Плиссе</a></li>
-						<li><a href="#">Римские шторы </a></li>
-						<li><a href="#">Бамбуковые шторы</a></li>
-						<li><a href="#">Антимоскитные сетки</a></li>
-						<li><a href="#">Ролеты защитные</a> </li>
-						<li><a href="#">Окна и двери ПВХ</a></li>
+						<li><a onclick="showGorizontal()">Горизонтальные жалюзи</a></li>
+						<li><a onclick="showAlign()">Вертикальные жалюзи</a></li>
+						<li><a onclick="showPlisse()">Плиссе</a></li>
+						<li><a onclick="showRim()">Римские шторы </a></li>
+						<li><a onclick="showBamb()">Бамбуковые шторы</a></li>
+						<li><a onclick="showAnti()">Антимоскитные сетки</a></li>
+						<li><a onclick="showRoletu()">Ролеты защитные</a> </li>
+						<li><a onclick="showOkna_dv()">Окна и двери ПВХ</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -526,19 +527,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="wrap_prod">
+		<div class="wrap_prod" id="showBamb" style="display: none;">
 			<div class="nav_left">
 				<h4>Продукция</h4>
 				<ul class="nav_item">	
 						<li><a href="production_l2.html">Роловые шторы</a></li>
-						<li><a href="#">Горизонтальные жалюзи</a></li>
-						<li><a href="#">Вертикальные жалюзи</a></li>
-						<li><a href="#">Плиссе</a></li>
-						<li><a href="#">Римские шторы </a></li>
-						<li><a href="#">Бамбуковые шторы</a></li>
-						<li><a href="#">Антимоскитные сетки</a></li>
-						<li><a href="#">Ролеты защитные</a> </li>
-						<li><a href="#">Окна и двери ПВХ</a></li>
+						<li><a onclick="showGorizontal()">Горизонтальные жалюзи</a></li>
+						<li><a onclick="showAlign()">Вертикальные жалюзи</a></li>
+						<li><a onclick="showPlisse()">Плиссе</a></li>
+						<li><a onclick="showRim()">Римские шторы </a></li>
+						<li><a onclick="showBamb()">Бамбуковые шторы</a></li>
+						<li><a onclick="showAnti()">Антимоскитные сетки</a></li>
+						<li><a onclick="showRoletu()">Ролеты защитные</a> </li>
+						<li><a onclick="showOkna_dv()">Окна и двери ПВХ</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -621,19 +622,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="wrap_prod">
+		<div class="wrap_prod" id="showAnti" style="display: none;">
 			<div class="nav_left">
 				<h4>Продукция</h4>
 				<ul class="nav_item">	
 						<li><a href="production_l2.html">Роловые шторы</a></li>
-						<li><a href="#">Горизонтальные жалюзи</a></li>
-						<li><a href="#">Вертикальные жалюзи</a></li>
-						<li><a href="#">Плиссе</a></li>
-						<li><a href="#">Римские шторы </a></li>
-						<li><a href="#">Бамбуковые шторы</a></li>
-						<li><a href="#">Антимоскитные сетки</a></li>
-						<li><a href="#">Ролеты защитные</a> </li>
-						<li><a href="#">Окна и двери ПВХ</a></li>
+						<li><a onclick="showGorizontal()">Горизонтальные жалюзи</a></li>
+						<li><a onclick="showAlign()">Вертикальные жалюзи</a></li>
+						<li><a onclick="showPlisse()">Плиссе</a></li>
+						<li><a onclick="showRim()">Римские шторы </a></li>
+						<li><a onclick="showBamb()">Бамбуковые шторы</a></li>
+						<li><a onclick="showAnti()">Антимоскитные сетки</a></li>
+						<li><a onclick="showRoletu()">Ролеты защитные</a> </li>
+						<li><a onclick="showOkna_dv()">Окна и двери ПВХ</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -710,19 +711,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="wrap_prod">
+		<div class="wrap_prod" id="showRoletu" style="display: none;">
 			<div class="nav_left">
 				<h4>Продукция</h4>
 				<ul class="nav_item">	
 						<li><a href="production_l2.html">Роловые шторы</a></li>
-						<li><a href="#">Горизонтальные жалюзи</a></li>
-						<li><a href="#">Вертикальные жалюзи</a></li>
-						<li><a href="#">Плиссе</a></li>
-						<li><a href="#">Римские шторы </a></li>
-						<li><a href="#">Бамбуковые шторы</a></li>
-						<li><a href="#">Антимоскитные сетки</a></li>
-						<li><a href="#">Ролеты защитные</a> </li>
-						<li><a href="#">Окна и двери ПВХ</a></li>
+						<li><a onclick="showGorizontal()">Горизонтальные жалюзи</a></li>
+						<li><a onclick="showAlign()">Вертикальные жалюзи</a></li>
+						<li><a onclick="showPlisse()">Плиссе</a></li>
+						<li><a onclick="showRim()">Римские шторы </a></li>
+						<li><a onclick="showBamb()">Бамбуковые шторы</a></li>
+						<li><a onclick="showAnti()">Антимоскитные сетки</a></li>
+						<li><a onclick="showRoletu()">Ролеты защитные</a> </li>
+						<li><a onclick="showOkna_dv()">Окна и двери ПВХ</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -799,19 +800,19 @@
 				</div>
 			</div>
 		</div>
-		<div class="wrap_prod">
+		<div class="wrap_prod" id="showOkna_dv" style="display: none;">
 			<div class="nav_left">
 				<h4>Продукция</h4>
 				<ul class="nav_item">	
 						<li><a href="production_l2.html">Роловые шторы</a></li>
-						<li><a href="#">Горизонтальные жалюзи</a></li>
-						<li><a href="#">Вертикальные жалюзи</a></li>
-						<li><a href="#">Плиссе</a></li>
-						<li><a href="#">Римские шторы </a></li>
-						<li><a href="#">Бамбуковые шторы</a></li>
-						<li><a href="#">Антимоскитные сетки</a></li>
-						<li><a href="#">Ролеты защитные</a> </li>
-						<li><a href="#">Окна и двери ПВХ</a></li>
+						<li><a onclick="showGorizontal()">Горизонтальные жалюзи</a></li>
+						<li><a onclick="showAlign()">Вертикальные жалюзи</a></li>
+						<li><a onclick="showPlisse()">Плиссе</a></li>
+						<li><a onclick="showRim()">Римские шторы </a></li>
+						<li><a onclick="showBamb()">Бамбуковые шторы</a></li>
+						<li><a onclick="showAnti()">Антимоскитные сетки</a></li>
+						<li><a onclick="showRoletu()">Ролеты защитные</a> </li>
+						<li><a onclick="showOkna_dv()">Окна и двери ПВХ</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
