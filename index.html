@@ -2,18 +2,21 @@
 <html lang="rus">
 <head>
 	<meta charset="UTF-8">
-	<title>Molovid</title>
+	<title>Milovid</title>
 	<link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 	<link rel="stylesheet" href="style/reset.css">
 	<link rel="stylesheet" href="style/main.css">
 	<link rel="stylesheet" href="style/header.css">
 	<link rel="stylesheet" href="style/footer.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="style/index.css" rel="stylesheet">
+	<script src="js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 	<header>
 		<div class="container">
 			<div class="title">
-				<a href="index.html"><img src="image/logo_milovid.png" alt="Logo"></a>
+				<a href="https://www.milovid.com.ua"><img src="image/logo_milovid.png" alt="Logo"></a>
 					<div class="name">
 						<a href="index.html">
 							<h1>Миловид</h1>
@@ -39,12 +42,12 @@
 			<a href="#">
 				<div class="viber">
 					<div class="svggg">
-						<img src="image/viber_1-01.svg" alt="viber">
+						<a href="viber://chat?number=380672396114"><img src="image/viber_1-01.svg" alt="viber"></a>
 					</div>
-					<span>Viber</span>
+					<span><a href="viber://chat?number=380672396114">Viber</a></span>
 				</div>
 			</a>
-			<a href="https://goo.gl/maps/P3WDzGn8AUt">
+			<a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">
 				<div class="location">
 					<div class="svggg">
 					<img  src="image/map.png" alt="location">
@@ -65,12 +68,16 @@
 			</div>
 			<div class="vk">
 				<a href=https://vk.com/>
-					<img src="image/vk_logo.svg" alt="vk">
+					<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" class="svg1">
+						<use href="image/vk_logo.svg#Capa_1" width="22" height="22" stroke="red" fill="red"></use>
+					</svg>
 				</a>
 			</div>
 			<div class="fb">
 				<a href=https://www.facebook.com/>
-					<img src="image/facebook_logo.svg" alt="fb">
+					<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" class="svg1">
+						<use href="image/facebook_logo.svg#Capa_1" width="22" height="22"></use>
+					</svg>
 				</a>	
 			</div>
 		</div>
@@ -78,10 +85,10 @@
 		<div class="nav_container">
 			<div class="nav">
 				<ul id="one">
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Продукция</a></li>
-					<li><a href="#">Наши роботы</a></li>
-					<li><a href="#">Контакты</a></li>
+					<li><a href="https://www.milovid.com.ua">Главная</a></li>
+					<li><a href="./template/production.html">Продукция</a></li>
+					<li><a href="./template/portfolio.html">Наши роботы</a></li>
+					<li><a href="./template/contacts.html">Контакты</a></li>
 				</ul>
 				<div class="dollar" id="two">
 					Курс доллара: <span>26.71</span>
@@ -89,10 +96,223 @@
 			</div>
 		</div>
 	</header>
-	<br>
-	<br>
-	<br>
-	<br>
+	<script src="js/slides-start-page.js"></script>
+	<div class="slider-main-page"> <!-- FIRST SLIDE 11111-->
+		<div class="slider-item">
+			<div class="slider-text">
+				<h2 class="slider-head">
+					Ролові штори
+				</h2>
+				<div class="slider-description">
+					Ролові штори дають нові можливості в оформленні дизайну будь-яких приміщень – можливість надати офісу
+					або квартирі неповторність і оригінальність. Ваше вікно буде виглядати стильно.
+				</div>
+				<button class="slider-button">Більш детально</button>
+				<div class="slide-change-block">
+					<button class="slide-change-block-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+					<button class="slide-change-block-right" onclick="plusDivs(+1)"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+				</div>
+			</div>
+			<div class="slider-photo slider-photo1">
+			</div>
+		</div>
+
+		<div class="slider-item" style="display: none;"> <!-- SECOND SLIDE 22222-->
+			<div class="slider-text">
+				<h2 class="slider-head">Бамбукові штори</h2>
+				<div class="slider-description">
+					Бамбукові штори – це цільне полотно, сплетене різними способами з бамбукового очерету, джутової
+					соломки, льону, всі тканини натуральні. Бамбуковий варіант декора вікна довговічний і практичний
+					завдяки вологостійкості й міцності, він екзотично декорує приміщення.
+				</div>
+				<button class="slider-button">Більш детально</button>
+				<div class="slide-change-block">
+					<button class="slide-change-block-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+					<button  class="slide-change-block-right" onclick="plusDivs(+1)"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+				</div>
+			</div>
+			<div class="slider-photo slider-photo2">
+			</div>
+		</div>
+
+		<div class="slider-item" style="display: none;"> <!-- THIRD SLIDE 33333-->
+			<div class="slider-text">
+				<h2 class="slider-head">Римські штори</h2>
+				<div class="slider-description">
+					Римські штори – унікальна річ, яка втілює у собі лаконізм, мінімально можливі витрати тканин з
+					відмінними функціональними характеристиками. Римські штори – оптимальне та стильне рішення захисту
+					приміщення від сонячних променів, сторонніх поглядів з вулиці.
+				</div>
+				<button class="slider-button">Більш детально</button>
+				<div class="slide-change-block">
+					<button  class="slide-change-block-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+					<button  class="slide-change-block-right" onclick="plusDivs(+1)"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+				</div>
+			</div>
+			<div class="slider-photo slider-photo3">
+			</div>
+		</div>
+
+		<div class="slider-item" style="display: none;"> <!-- FOURTH SLIDE 44444-->
+			<div class="slider-text">
+				<h2 class="slider-head">Штори плісе</h2>
+				<div class="slider-description">
+					Вдалий вибір для вікон з нестандартними формами та розмірами. Придбати сонцезахисні системи для
+					таких вікон може бути проблематично, а штори плісе допоможуть закрити найбільші віконні отвори.
+					Також немає труднощів із встановленням жалюзі на різних віконних поверхнях, які мають нахил –
+					мансардне вікно чи частина скляного даху.
+				</div>
+				<button class="slider-button">Більш детально</button>
+				<div class="slide-change-block">
+					<button class="slide-change-block-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+					<button class="slide-change-block-right" onclick="plusDivs(+1)"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+				</div>
+			</div>
+			<div class="slider-photo slider-photo4">
+			</div>
+		</div>
+	</div>
+
+	<div class="production-news">
+		<div class="production">
+			<h2>Продукція</h2>
+			<div class="svg-menu">
+				<div class="svg-str">
+					<div class="svg-item">
+						<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+							<use href="image/rolls-01.svg#Шар_1" width="80" height="80" class="fill-hover"></use>
+						</svg>
+						<button>Ролові штори</button>
+					</div>
+					<div class="svg-item">
+						<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+							<use href="image/jalousie_horizontzl-01.svg#Шар_1" width="80" height="80"></use>
+						</svg>
+						<button>Горизонтальні жалюзі</button>
+					</div>
+					<div class="svg-item">
+						<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+							<use href="image/jalousie_vertical-01.svg#Шар_1" width="80" height="80"></use>
+						</svg>
+						<button>Вертикальні жалюзі</button>
+					</div>
+				</div>
+				<div class="svg-str">
+					<div class="svg-item">
+						<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+							<use href="image/plisse-01.svg#Шар_1" width="80" height="80"></use>
+						</svg>
+						<button>Пліссе</button>
+					</div>
+					<div class="svg-item">
+						<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+							<use href="image/roman-01.svg#Шар_1" width="80" height="80"></use>
+						</svg>
+						<button>Римські штори</button>
+					</div>
+					<div class="svg-item">
+						<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+							<use href="image/bamboo-01.svg#Шар_1" width="80" height="80"></use>
+						</svg>
+						<button>Бамбукові штори</button>
+					</div>
+				</div>
+			</div>
+			<div class="svg-str">
+				<div class="svg-item">
+					<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+						<use href="image/mosquito-01.svg#Шар_1" width="80" height="80"></use>
+					</svg>
+					<button>Антимоскітні сітки</button>
+				</div>
+				<div class="svg-item">
+					<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+						<use href="image/rollet-01.svg#Шар_1" width="80" height="80"></use>
+					</svg>
+					<button>Роллети захисні</button>
+				</div>
+				<div class="svg-item">
+					<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80">
+						<use href="image/window_door-01.svg#Шар_1" width="80" height="80"></use>
+					</svg>
+					<button>Вікна та двері ПВХ</button>
+				</div>
+			</div>
+		</div>
+		<div class="news">
+			<h2>Акції та новини</h2>
+			<article>
+				<h3>Нова колекція</h3>
+				<p>Нова колекція тканини для вертикальних жалюзей 127мм, 89мм</p>
+				<p class="date">01/07/2017</p>
+			</article>
+			<article>
+				<h3>Скидки %</h3>
+				<p>С 1-го октября новые цены на роловые шторы!!! Ну очень низкие цены!</p>
+				<p class="date">01/07/2017</p>
+			</article>
+			<article>
+				<h3>Скидки %</h3>
+				<p>С 1-го октября новые цены на роловые шторы!!! Ну очень низкие цены!</p>
+				<p class="date">01/07/2017</p>
+			</article>
+			<article>
+				<h3>Скидки %</h3>
+				<p>С 1-го октября новые цены на роловые шторы!!! Ну очень низкие цены!</p>
+				<p class="date">01/07/2017</p>
+			</article>
+		</div>
+	</div>
+	<div class="repair">
+		<div class="repair-image">
+			<div class="repair-icon">
+				<svg width="60" height="60">
+					<use xlink:href="image/repair-01.svg#Capa_1" width="60" height="60" style="stroke: #000000"></use>
+				</svg>
+			</div>
+		</div>
+		<div class="repair-text">
+			<h2>Ремонт жалюзей всіх видів, заміна деталей</h2>
+			<p class="repair-description">Наші спеціалісти професійно та оперативно підберуть всі необхідні деталі і виконають ремонт жалюзей
+				будь-якої складності. Дадуть цінні поради щодо правильної експлуатації та догляду за ними.</p>
+			<p class="repair-phone-us">Потрібен ремонт жалюзей? Телефонуйте нам і ми Вам допоможемо!</p>
+			<p class="mobile-phone"><a href="tel: +380472382117">(0472) 382-117</a></p>
+			<p class="mobile-phone"><a href="tel: +380672396114">(067) 239-6114</a></p>
+			<p class="mobile-phone"><a href="tel: +380933365793">(093) 336-5793</a></p>
+		</div>
+	</div>
+	<div class="gallery-main-page">
+		<div class="wrapper-gallery">
+			<div class="gallery-on">
+				<h2>Наші роботи</h2>
+				<div class="gallery-str">
+					<div class="twoXtwo">
+						<div class="str-gallery">
+							<p class="twoXtwo1Element twoXtwoElementSize"></p>
+							<p class="twoXtwo2Element twoXtwoElementSize"></p>
+						</div>
+						<div class="str-gallery">
+							<p class="twoXtwo3Element twoXtwoElementSize"></p>
+							<p class="twoXtwo4Element twoXtwoElementSize"></p>
+						</div>
+					</div>
+					<iframe width="577" height="434"
+							src="https://www.youtube.com/embed/tgbNymZ7vqY">
+					</iframe>
+				</div>
+				<div class="gallery-str">
+					<p class="twoXtwo5Element twoXtwoElementSize"></p>
+					<p class="twoXtwo6Element twoXtwoElementSize"></p>
+					<p class="twoXtwo7Element twoXtwoElementSize"></p>
+					<p class="twoXtwo8Element twoXtwoElementSize"></p>
+				</div>
+				<div class="button-center">
+					<a href="./template/portfolio.html"><button class="more-photo-button">Ще фото &#8194;
+						<i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
+				</div>
+			</div>
+		</div>
+	</div>
 	<footer>
 		<div class="fot_container">
 			<div class="map">
@@ -106,26 +326,26 @@
 				</h5>
 				<ul>
 					<li>
-						<a href="#">
+						<a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">
 							<div class="cont_img">
 								<img src="image/map_foot.png" alt="map">
 							</div>
 						</a>
-						г. Черкассы, бул.Шевченка, 145,<br>
-						офис 117, (1 -й этаж)
+						<a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">г. Черкассы, бул.Шевченка, 145,<br>
+						офис 117, (1 -й этаж)</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="https://goo.gl/maps/P3WDzGn8AUt">
 							<div class="cont_img">
 								<img src="image/time.png" alt="time">
 							</div>
 						</a>
-						пн-пт: 9-00 – 18-00
+						<a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">пн-пт: 9-00 – 18-00</a>
 					</li>
 					<li>
 						<a href="#">
 							<div class="cont_img">
-								<img src="image/phone_foot.png" alt="phone">
+								<a href="tel: +380472382117"><img src="image/phone_foot.png" alt="phone"></a>
 							</div>
 						</a>
 						<div class="wrapper">
@@ -137,18 +357,18 @@
 					<li>
 						<a href="#">
 							<div class="cont_img">
-								<img src="image/viber_1-01.svg" alt="viber">
+								<a href="viber://chat?number=380672396114"><img src="image/viber_1-01.svg" alt="viber"></a>
 							</div>
 						</a>
-						Viber
+						<a href="viber://chat?number=380672396114">Viber</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="mailto: milovid@ukr.net">
 							<div class="cont_img">
 								<img src="image/mail_foot.png" alt="mail">
 							</div>
 						</a>
-						milovid@ukr.net
+						<a href="mailto: milovid@ukr.net">milovid@ukr.net</a>
 					</li>
 				</ul>
 			</div>

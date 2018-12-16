@@ -32,6 +32,9 @@ footer a{
 	display: flex;
 	flex-direction: column;
 }
+.contacts a:hover{
+	color: #6776e5;
+}
 .contacts .cont_img{
 	height: 45px;
 	width: 45px;

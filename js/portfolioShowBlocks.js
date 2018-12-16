@@ -87,3 +87,11 @@ function showWadBlock() {
   let b = document.getElementById('wad');
   b.style.display = "flex";
 }
+function showMainPortfolioBlock() {
+  let a = document.getElementById('portfolio-galerry');
+  a.style.display = "flex";
+  let x = document.getElementsByClassName("subcategory-block");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}

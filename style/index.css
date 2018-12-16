@@ -20,6 +20,7 @@ a{
   font-family: "Arimo", sans-serif;
   display: flex;
   flex-flow: column nowrap;
+  justify-content: flex-end;
   overflow: hidden;
   max-width: 40%;
   word-wrap: break-word;
@@ -49,6 +50,9 @@ a{
   box-shadow: 0px 7px 15px 0px  rgba(0,0,0,0.3);
   cursor: pointer;
 }
+.slider-button:active{
+  background: #f7d600;
+}
 .slide-change-block{
   background-color: rgba(0,0,0,0.1);
   display: flex;
@@ -56,13 +60,20 @@ a{
   align-items: center;
   height: 35px;
   font-size: 16px;
-  padding: 0 15px;
-  margin-top: 123px;
+  margin-top: 80px;
 }
 .slide-change-block button{
+  height: 35px;
+  width: 35px;
   color: white;
   background: none;
   border: none;
+}
+.slide-change-block-left:hover, .slide-change-block-right:hover{
+  background: rgba(43, 43, 56, 0.4);
+}
+.slide-change-block-left:active, .slide-change-block-right:active{
+  background: rgba(43, 43, 56, 0.6);
 }
 .slider-photo{
   background-size: cover;
@@ -71,20 +82,21 @@ a{
   overflow: hidden;
 }
 .slider-photo1{
-  background-image: url("../image/rol_shtoru/ZpEnmn7.jpeg");
+  background-image: url("../image/rol_shtoru/CVHQxtu.jpeg");
   background-size: cover;
 }
 .slider-photo2{
-  background-image: url("../image/rimskie/05.jpg");
+  background-image: url("../image/bamb/maitvCk.jpeg");
   background-size: cover;
 }
 .slider-photo3{
-  background-image: url("../image/vertical/e4DUh9p.jpeg");
+  background-image: url("../image/rimskie/05.jpg");
   background-size: cover;
 }
 .slider-photo4{
-  background-image: url("../image/gorizont/GRpAscJ.jpeg");
+  background-image: url("../image/plisse/pDBHKIn.jpeg");
   background-size: cover;
+
 }
 .production-news{
   margin-top: 40px;
@@ -123,9 +135,16 @@ a{
   box-shadow: 0px 7px 15px 0px  rgba(0,0,0,0.3);
   cursor: pointer;
 }
+.svg-item:active button{
+  background: #f7d600;
+}
 .svg-item:hover use{
   stroke: #6776e5;
   fill: #6776e5;
+}
+.svg-item:active use{
+  stroke: #4b55a6;
+  fill: #4b55a6;
 }
 .news{
   margin-left: 77px;
@@ -213,6 +232,10 @@ article p{
   font-size: 26px;
   line-height: 39px;
 }
+.mobile-phone a{
+  text-decoration: none;
+  color: #000000;
+}
 .gallery-main-page{
   margin-top: 100px;
   display: flex;
@@ -235,6 +258,7 @@ table video{
 .more-photo-button{
   text-decoration: none;
   margin-top: 40px;
+  margin-bottom: 150px;
   width: 200px;
   height: 45px;
   background: #ffe700;
@@ -248,6 +272,9 @@ table video{
 .more-photo-button:hover{
   box-shadow: 0px 7px 15px 0px  rgba(0,0,0,0.3);
   cursor: pointer;
+}
+.more-photo-button:active{
+  background: #f7d600;
 }
 .wrapper-gallery{
   display: flex;

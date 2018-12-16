@@ -7,13 +7,98 @@
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <link rel="stylesheet" href="../style/reset.css">
     <link rel="stylesheet" href="../style/portfolio.css">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/footer.css">
     <script src="../js/slides-portfolio.js"></script>
     <script src="../js/portfolioShowBlocks.js"></script>
 </head>
 <body>
+<header>
+    <div class="container">
+        <div class="title">
+            <a href="https://www.milovid.com.ua"><img src="../image/logo_milovid.png" alt="Logo"></a>
+            <div class="name">
+                <a href="https://www.milovid.com.ua">
+                    <h1>Миловид</h1>
+
+                    <h2>
+                        Рол-шторы, жалюзи,<br>
+                        окна, двери, роллеты
+                    </h2>
+                </a>
+            </div>
+        </div>
+        <div class="nav_elem">
+            <div class="phone">
+                <div class="svggg">
+                    <img src="../image/phone.png" alt="phone">
+                </div>
+                <span>
+					<a href="tel: +380472382117">(0472) 382-117</a>
+					<a href="tel: +380672396114">(067) 239-6114</a>
+					<a href="tel: +380933365793">(093) 336-5793</a>
+				</span>
+            </div>
+            <a href="#">
+                <div class="viber">
+                    <div class="svggg">
+                        <a href="viber://chat?number=380672396114"><img src="../image/viber_1-01.svg" alt="viber"></a>
+                    </div>
+                    <span><a href="viber://chat?number=380672396114">Viber</a></span>
+                </div>
+            </a>
+            <a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">
+                <div class="location">
+                    <div class="svggg">
+                        <img  src="../image/map.png" alt="location">
+                    </div>
+                    <span>
+						г. Черкассы <br>
+						бул. Шевченка, 145, офис 117
+					</span>
+                </div>
+            </a>
+            <div class="mail">
+                <div class="svggg">
+                    <img src="../image/mail.png" alt="mail">
+                </div>
+                <a href="mailto: milovid@ukr.net">
+                    <span>milovid@ukr.net</span>
+                </a>
+            </div>
+            <div class="vk">
+                <a href=https://vk.com/>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" class="svg1">
+                        <use href="../image/vk_logo.svg#Capa_1" width="22" height="22" stroke="red" fill="red"></use>
+                    </svg>
+                </a>
+            </div>
+            <div class="fb">
+                <a href=https://www.facebook.com/>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" class="svg1">
+                        <use href="../image/facebook_logo.svg#Capa_1" width="22" height="22"></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="nav_container">
+        <div class="nav">
+            <ul id="one">
+                <li><a href="https://www.milovid.com.ua">Главная</a></li>
+                <li><a href="../template/production.html">Продукция</a></li>
+                <li><a href="../template/portfolio.html">Наши роботы</a></li>
+                <li><a href="../template/contacts.html">Контакты</a></li>
+            </ul>
+            <div class="dollar" id="two">
+                Курс доллара: <span>26.71</span>
+            </div>
+        </div>
+    </div>
+</header>
     <div class="wrapper-portfolio">
         <div class="menu-portfolio">
-            <h3>Наші роботи</h3>
+            <h3 onclick="showMainPortfolioBlock()">Наші роботи</h3>
             <a onclick="showRoleCurtainsBlock()">Ролові штори</a>
             <a onclick="showGorizontalBlock()">Горизонтальні жалюзі</a>
             <a onclick="showVerticalBlock()">Вертикальні жалюзі</a>
@@ -115,9 +200,9 @@
 
             <div class="switch-gallery">
                 <button onclick="plusDivs(-1)"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
-                <div class="selected-page-gallery" style="background-color: #f2f3f9; color: #000000;">1</div>
-                <div class="selected-page-gallery">2</div>
-                <div class="selected-page-gallery">3</div>
+                <div class="selected-page-gallery selected-page-gallery1" style="background-color: #f2f3f9; color: #000000;"></div>
+                <div class="selected-page-gallery selected-page-gallery2"></div>
+                <div class="selected-page-gallery selected-page-gallery3"></div>
                 <button onclick="plusDivs(+1)"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
             </div>
         </div>
@@ -150,176 +235,173 @@
             <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
             <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
             <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
             <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
             <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
             <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL"> <!-- 9 -->
         </div>
 
         <div class="subcategory-block" id="vertical" style="display: none">
             <h3>Вертикальні жалюзі</h3>
-            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
-            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+            <img src="../image/vertical/9WPiIKY.jpeg" alt="VERTICAL">
+            <img src="../image/vertical/AasvNID.jpeg" alt="VERTICAL">
+            <img src="../image/vertical/CWk9tF2.jpeg" alt="VERTICAL">
+            <img src="../image/vertical/e4DUh9p.jpeg" alt="VERTICAL">
+            <img src="../image/vertical/ecsys5o.jpeg" alt="VERTICAL">
+            <img src="../image/vertical/GuufvFe.jpeg" alt="VERTICAL">
+            <img src="../image/vertical/k2WmtE6.jpeg" alt="VERTICAL">
+            <img src="../image/vertical/Mkx9YOq.jpeg" alt="VERTICAL"> <!-- 8 -->
         </div>
 
         <div class="subcategory-block" id="plisse" style="display: none">
             <h3>Пліссе</h3>
-            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
-            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+            <img src="../image/plisse/bqvIaNH.jpeg" alt="PLISSE">
+            <img src="../image/plisse/FSKqJ8a.jpeg" alt="PLISSE">
+            <img src="../image/plisse/pDBHKIn.jpeg" alt="PLISSE">
+            <img src="../image/plisse/TxqMziS.jpeg" alt="PLISSE">
+            <img src="../image/plisse/zjohNTz.jpeg" alt="PLISSE">
         </div>
 
         <div class="subcategory-block" id="roman-curtains" style="display: none">
             <h3>Римські штори</h3>
-            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
-            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+            <img src="../image/rimskie/05.jpg" alt="ROMAN">
+            <img src="../image/rimskie/75874.jpeg" alt="ROMAN">
+            <img src="../image/rimskie/450877.jpeg" alt="ROMAN"> <!-- 3 -->
+            <img src="../image/rimskie/алле.jpg" alt="ROMAN">
         </div>
 
         <div class="subcategory-block" id="bamboo-curtains" style="display: none">
             <h3>Бамбукові штори</h3>
-            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
-            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+            <img src="../image/bamb/Hgn1JNi.jpeg" alt="BAMBOO">
+            <img src="../image/bamb/maitvCk.jpeg" alt="BAMBOO">
+            <img src="../image/bamb/Изображение%20003.jpg" alt="BAMBOO">
+            <img src="../image/bamb/Изображение%20005.jpg" alt="BAMBOO">
+            <img src="../image/bamb/Изображение%20009.jpg" alt="BAMBOO">
+            <img src="../image/bamb/Изображение%20013.jpg" alt="BAMBOO">
         </div>
 
         <div class="subcategory-block" id="antimosquito" style="display: none">
             <h3>Антимоскітні сітки</h3>
-            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
-            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+            <img src="../image/anti_mos/IMG_2402.JPG" alt="ANTIMOSQUITO">
+            <img src="../image/anti_mos/IMG_2397.JPG" alt="ANTIMOSQUITO">
+            <img src="../image/anti_mos/IMG_2396.JPG" alt="ANTIMOSQUITO">
+            <img src="../image/anti_mos/kAaHDdV.jpeg" alt="ANTIMOSQUITO">
+            <img src="../image/anti_mos/moskitnaya-setka_1.jpg" alt="ANTIMOSQUITO">
+            <img src="../image/anti_mos/sBN8HzM.jpeg" alt="ANTIMOSQUITO">
         </div>
 
         <div class="subcategory-block" id="rolls-protective" style="display: none">
             <h3>Ролети захисні</h3>
-            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
-            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+            <img src="../image/rolletu/4FaN3YD5FCU.jpg" alt="GORIZONTAL">
+            <img src="../image/rolletu/Di08GnD0Xp0.jpg" alt="GORIZONTAL">
+            <img src="../image/rolletu/r7_XyZgzuDA.jpg" alt="GORIZONTAL">
         </div>
 
         <div class="subcategory-block" id="wad" style="display: none">
             <h3>Вікна та двері ПВХ</h3>
-            <img src="../image/gorizont/1K3Komv.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/5KyaU8u.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/a351GeY.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/EGaCWOw.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/FmIc5QI.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/zD8eYrD.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ZpEnmn7.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/3TVFHTX.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/92cc0qC.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/ANq41qf.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/CVHQxtu.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/d1biloH.jpeg" alt="roleCurtains">
-            <img src="../image/gorizont/GRpAscJ.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/hk1Hg0n.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/jSzuBkg.jpeg" alt="GORIZONTAL">
-            <img src="../image/gorizont/xe7d1FU.jpeg" alt="GORIZONTAL">
-            <img src="../image/rol_shtoru/vpDoVit.jpeg" alt="roleCurtains">
-            <img src="../image/rol_shtoru/Xf99P5u.jpeg" alt="roleCurtains">
+            <img src="../image/okna_dveri/2ph-DQDm6bE.jpg" alt="WINDOWS and DOORS">
+            <img src="../image/okna_dveri/G6CLgT2asxM.jpg" alt="WINDOWS and DOORS">
+            <img src="../image/okna_dveri/JdCl7BW3a40.jpg" alt="WINDOWS and DOORS">
+            <img src="../image/okna_dveri/lehQBpbLsNo.jpg" alt="WINDOWS and DOORS">
         </div>
     </div>
+<footer class="footer-portfolio">
+    <div class="fot_container">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d917.0811247748902!2d32.05223493963703!3d49.44866127886595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d14c84944cee9f%3A0xadd4e3e0137247dc!2z0LHRg9C7LiDQqNC10LLRh9C10L3QutC-LCAxNDUsINCn0LXRgNC60LDRgdGB0YssINCn0LXRgNC60LDRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAxODAwMA!5e0!3m2!1sru!2sua!4v1544290995186" width="380" height="410" frameborder="0" style="border:0" allowfullscreen>
+            </iframe>
+        </div>
+        <div class="contacts" >
+            <h5>
+                Мы подберем самое лучшее <br>
+                решение именно для вас
+            </h5>
+            <ul>
+                <li>
+                    <a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">
+                        <div class="cont_img">
+                            <img src="../image/map_foot.png" alt="map">
+                        </div>
+                    </a>
+                    <a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">г. Черкассы, бул.Шевченка, 145,<br>
+                        офис 117, (1 -й этаж)</a>
+                </li>
+                <li>
+                    <a href="https://goo.gl/maps/P3WDzGn8AUt">
+                        <div class="cont_img">
+                            <img src="../image/time.png" alt="time">
+                        </div>
+                    </a>
+                    <a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">пн-пт: 9-00 – 18-00</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="cont_img">
+                            <a href="tel: +380472382117"><img src="../image/phone_foot.png" alt="phone"></a>
+                        </div>
+                    </a>
+                    <div class="wrapper">
+                        <a href="tel: +380472382117">(0472) 382-117</a><br>
+                        <a href="tel: +380672396114">(067) 239-6114</a><br>
+                        <a href="tel: +380933365793">(093) 336-5793</a><br>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="cont_img">
+                            <a href="viber://chat?number=380672396114"><img src="../image/viber_1-01.svg" alt="viber"></a>
+                        </div>
+                    </a>
+                    <a href="viber://chat?number=380672396114">Viber</a>
+                </li>
+                <li>
+                    <a href="mailto: milovid@ukr.net">
+                        <div class="cont_img">
+                            <img src="../image/mail_foot.png" alt="mail">
+                        </div>
+                    </a>
+                    <a href="mailto: milovid@ukr.net">milovid@ukr.net</a>
+                </li>
+            </ul>
+        </div>
+        <div class="forms">
+            <h5>
+                Пожалуйста, оставьте свои контакты<br>
+                и ваш вопрос, мы с вами свяжемся!
+            </h5>
+            <div class="right_cont">
+                <span>*</span> – поля обязательные для заполнения
+            </div>
+            <form action="">
+                <span>*</span>
+                <input type="text" name="name" placeholder="Ваше имя" maxlength="50" required><br>
+                <span>*</span>
+                <input type="email" name="mail" placeholder="E-mail" maxlength="50" required><br>
+                <span>*</span>
+                <input type="tel" name="phone" value="+38 " required maxlength="14"><br>
+                <textarea name="text"placeholder="Ваш вопрос" maxlength="250" ></textarea>
+                <div class="right_cont">
+                    <input type="submit" value="Отправить">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="bottom_container">
+        <div class="unicode_st">
+            <div class="footer_title">
+                <img src="../image/logo_milovid.png" alt="logo">
+                <div class="wrapper">
+                    <h5>Миловид</h5>
+                    <h6>Изготовление и установка разных видов жалюзи, защитных роллет, гаражных ворот, москитных сеток, окна и двери ПВХ, рефлексоролы, маркизы, ремонт жалюзи.</h6>
+                </div>
+            </div>
 
-    <div style="padding-top: 100px;"></div>
+            <div class="copyright">
+                Copyright © 2015-2018. Миловид
+            </div>
+
+        </div>
+    </div>
+</footer>
 </body>
 </html>

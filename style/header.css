@@ -74,6 +74,10 @@ header h2:hover{
 	align-items: center;
 	margin-right: 40px;
 }
+.viber span{
+	display: flex;
+	align-items: center;
+}
 .nav_elem .svggg{
 	height: 45px;
 	width: 45px;
@@ -106,9 +110,9 @@ header h2:hover{
 }
 
 /* NOT WORKING */
-.vk img:hover, /* NOT WORKING */
-.fb img:hover{/* NOT WORKING */
-	fill:#6776e5 !important;/* NOT WORKING */	
+svg:hover use{/* NOT WORKING */
+	stroke:#6776e5;
+	fill: #6776e5;/* NOT WORKING */
 }/* NOT WORKING */
 /* NOT WORKING */
 

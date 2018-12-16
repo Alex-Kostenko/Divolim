@@ -1,4 +1,8 @@
+a{
+  text-decoration: none;
+}
 .main-wrapper-contacts{
+  margin-top: 80px;
   display: flex;
   justify-content: center;
 }
@@ -116,4 +120,7 @@
 .form-contacts button:hover{
   box-shadow: 0px 7px 15px 0px  rgba(0,0,0,0.3);
   cursor: pointer;
+}
+.footer-contacts{
+  margin-top: 80px;
 }
