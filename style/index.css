@@ -1,17 +1,20 @@
 a{
   text-decoration: none;
 }
+body{
+  overflow-x: hidden;
+}
 .slider-main-page{
   height: 500px;
   background-color: #4b55a6;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 15%;
   color: #ffffff;
 }
 .slider-item{
   height: 500px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -31,7 +34,6 @@ a{
   padding: 0 50px 0 0 ;
 }
 .slider-description{
-  /*max-width: 324px;*/
   padding: 0 50px 0 0 ;
   margin-top: 25px;
   color: #ffffff;
@@ -41,7 +43,7 @@ a{
 .slider-button{
   margin-top: 25px;
   max-width: 200px;
-  height: 45px;
+  padding: 10px 0;
   background: #ffe700;
   border: none;
   border-radius: 45px;
@@ -54,13 +56,13 @@ a{
   background: #f7d600;
 }
 .slide-change-block{
+  margin-top: 80px;
   background-color: rgba(0,0,0,0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 35px;
   font-size: 16px;
-  margin-top: 80px;
 }
 .slide-change-block button{
   height: 35px;
@@ -294,8 +296,6 @@ table video{
   margin-top: 15px;
 }
 .twoXtwo{
-  width: 577px;
-  height: 434px;
   display: flex;
   flex-direction: column;
 }
