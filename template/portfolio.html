@@ -2,7 +2,7 @@
 <html lang="rus">
 <head>
     <meta charset="UTF-8">
-    <title>Наша робота</title>
+    <title>Milovid - Наші роботи</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <link rel="stylesheet" href="../style/reset.css">
@@ -10,16 +10,17 @@
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
     <link rel="stylesheet" href="../style/respons.css">
+    <link rel="stylesheet" href="../style/main.css">
     <script src="../js/slides-portfolio.js"></script>
     <script src="../js/portfolioShowBlocks.js"></script>
 </head>
 <body>
-<header>
+<header class="header-index">
     <div class="container">
         <div class="title">
             <a href="https://www.milovid.com.ua"><img src="../image/logo_milovid.png" alt="Logo"></a>
             <div class="name">
-                <a href="https://www.milovid.com.ua">
+                <a href="../index.html">
                     <h1>Миловид</h1>
 
                     <h2>
@@ -80,6 +81,9 @@
                         <use href="../image/facebook_logo.svg#Capa_1" width="22" height="22"></use>
                     </svg>
                 </a>
+            </div>
+            <div class="none_menu">
+                &#9776;
             </div>
         </div>
     </div>
@@ -324,7 +328,7 @@
                             <img src="../image/map_foot.png" alt="map">
                         </div>
                     </a>
-                    <a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">г. Черкассы, бул.Шевченка, 145,<br>
+                    <a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">г. Черкассы, бул.Шевченка, 145,
                         офис 117, (1 -й этаж)</a>
                 </li>
                 <li>
@@ -370,20 +374,14 @@
                 Пожалуйста, оставьте свои контакты<br>
                 и ваш вопрос, мы с вами свяжемся!
             </h5>
-            <div class="right_cont">
-                <span>*</span> – поля обязательные для заполнения
-            </div>
-            <form action="">
-                <span>*</span>
-                <input type="text" name="name" placeholder="Ваше имя" maxlength="50" required><br>
-                <span>*</span>
-                <input type="email" name="mail" placeholder="E-mail" maxlength="50" required><br>
-                <span>*</span>
-                <input type="tel" name="phone" value="+38 " required maxlength="14"><br>
-                <textarea name="text"placeholder="Ваш вопрос" maxlength="250" ></textarea>
-                <div class="right_cont">
-                    <input type="submit" value="Отправить">
-                </div>
+            <form method="post" class="form-contacts" action="https://postman-echo.com/post">
+                <p class="hint-form"><span>*</span> - поля обов'язкові для заповнення</p>
+                <input type="text" placeholder="* Ваше ім'я" name="name">
+                <input type="email" placeholder="* E-mail" name="email">
+                <input type="tel" placeholder="* Телефон" name="phone">
+                <input type="text" placeholder="* Ваш вопрос" name="question">
+                <textarea name="text" placeholder="Ваш вопрос" maxlength="250" rows="4"></textarea>
+                <button type="submit">Надіслати</button>
             </form>
         </div>
     </div>

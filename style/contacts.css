@@ -124,3 +124,9 @@ a{
 .footer-contacts{
   margin-top: 80px;
 }
+.contacts-page-bottom_container{
+  margin-top: 0 !important;
+}
+footer{
+  padding-top: 0 !important;
+}
