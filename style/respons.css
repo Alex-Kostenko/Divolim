@@ -75,6 +75,15 @@
 	.fot_container .forms form input, .fot_container .forms form textarea{
 		width: 270px;
 	}
+	.main_prod .remont_prod{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+	}
+	.main_prod .remont_prod img{
+		margin-bottom: 20px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -125,6 +134,10 @@
 	.copyright{
 		margin-top: 10px;
 	}
+	.main_prod .back_prod{
+		font-size: 30px;
+	display: block;
+	}
 } 
 
 @media only screen and (max-width: 992px) {
@@ -161,6 +174,15 @@
 	.gallery-str iframe{
 		width: 315px;
 		height: 236px;
+	}
+	.production .wrap_prod{
+		flex-direction: column;
+	}
+	.nav_left {
+    	display: none;
+	}
+	.production .wrap_prod{
+		margin-top: 30px !important;
 	}
 } 
 
@@ -207,5 +229,12 @@
 	}
 	.unicode_st{
 		justify-content: space-evenly;
+	}
+	.nav_left{
+		margin-left: 30px;
+	}
+	.production .main_prod{
+		margin-left: 30px !important;
+		margin-right: 25px;
 	}
 }

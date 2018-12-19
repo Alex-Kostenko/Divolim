@@ -76,3 +76,12 @@ function showClose() {
   }
   document.getElementById('showClose').style.display="flex";
 }
+/**********************************/
+function showMain() {
+  let x = document.getElementsByClassName("wrap_prod");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById('showMain').style.display="flex";
+}
+
