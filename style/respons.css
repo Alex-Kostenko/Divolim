@@ -75,6 +75,25 @@
 	.fot_container .forms form input, .fot_container .forms form textarea{
 		width: 270px;
 	}
+	body .wrapper-portfolio .portfolio-galerry iframe{
+		width: 400px;
+		height: 224px;
+	}
+	.wrapper-portfolio .portfolio-galerry .gallery-potfolio{
+		width: 400px;
+	}
+	.wrapper-portfolio .portfolio-galerry .gallery-potfolio img{
+		width: 190px;
+		height: 154px;
+	}
+	.footer-portfolio .fot_container .contacts{
+		margin-left: 0;
+	}
+	.text-contacts .company-description{
+		max-width: 400px;
+	}
+	.contacts-str .contacts-element{
+		width: 250px;
 	.main_prod .remont_prod{
 		flex-direction: column;
 		justify-content: center;
@@ -134,6 +153,27 @@
 	.copyright{
 		margin-top: 10px;
 	}
+	.wrapper-portfolio .portfolio-galerry iframe{
+		width: 540px;
+		height: 302px;
+	}
+	.portfolio-galerry .gallery-potfolio{
+		width: 540px;
+	}
+	.portfolio-galerry .gallery-potfolio img{
+		width: 160px;
+		height: 130px;
+	}
+	.fot_container .contacts{
+		margin-left: 30px;
+	}
+	.fot_container img, .fot_container iframe{
+		width: 450px;
+		height: 380px;
+	}
+	.production-news .news article{
+		width: auto;
+	}
 	.main_prod .back_prod{
 		font-size: 30px;
 	display: block;
@@ -141,12 +181,12 @@
 } 
 
 @media only screen and (max-width: 992px) {
-	.none_menu{
+	.nav_elem .none_menu{
 		display: block;
 		margin-right: 20px;
 		font-size: 20px;
 	}
-	.phone, .viber, .location, .mail, .vk, .fb{
+	.phone, .viber, .location, .mail, .vk, .fb, .nav_container{
 		display: none;
 	}
 	.production-news{
@@ -175,6 +215,33 @@
 		width: 315px;
 		height: 236px;
 	}
+	.portfolio-galerry iframe{
+		width: 800px;
+		height: 448px;
+	}
+	.gallery-potfolio{
+		width: 800px;
+	}
+	.gallery-potfolio img{
+		width: 253px;
+	}
+	.contacts-all-content{
+		align-items: center;
+	}
+	.contacts-all-content h2{
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.contacts-content{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.company-description{
+		text-align: center;
+	}
+	.form-contacts{
+		margin-top: 30px;
 	.production .wrap_prod{
 		flex-direction: column;
 	}
@@ -230,6 +297,32 @@
 	.unicode_st{
 		justify-content: space-evenly;
 	}
+	.menu-portfolio{
+		display: none;
+	}
+	.portfolio-galerry{
+		margin-left: 0;
+	}
+	.fot_container .contacts{
+		margin-right: 0;
+	}
+	.company-description{
+		max-width: 600px;
+	}
+	.contacts-element{
+		width: 300px;
+	}
+}
+@media only screen and (max-width: 850px) {
+	.portfolio-galerry iframe{
+		width: 700px;
+		height: 392px;
+	}
+	.gallery-potfolio{
+		width: 700px;
+	}
+	.gallery-potfolio img{
+		width: 222px;
 	.nav_left{
 		margin-left: 30px;
 	}

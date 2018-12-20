@@ -1,6 +1,9 @@
 a{
   text-decoration: none;
 }
+.none_menu{
+  display: none;
+}
 .main-wrapper-contacts{
   margin-top: 80px;
   display: flex;
@@ -123,4 +126,20 @@ a{
 }
 .footer-contacts{
   margin-top: 80px;
+}
+.contacts-page-bottom_container{
+  margin-top: 0 !important;
+}
+footer{
+  padding-top: 0 !important;
+}
+.fot_container-contacts{
+  justify-content: center !important;
+}
+.fot_container-contacts iframe{
+  border: #4a55a5 1px solid;
+}
+.footer-contacts-image{
+  width: 585px;
+  height: 470px;
 }
