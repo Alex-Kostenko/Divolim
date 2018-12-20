@@ -94,6 +94,14 @@
 	}
 	.contacts-str .contacts-element{
 		width: 250px;
+	.main_prod .remont_prod{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 10px;
+	}
+	.main_prod .remont_prod img{
+		margin-bottom: 20px;
 	}
 }
 
@@ -166,7 +174,11 @@
 	.production-news .news article{
 		width: auto;
 	}
-}
+	.main_prod .back_prod{
+		font-size: 30px;
+	display: block;
+	}
+} 
 
 @media only screen and (max-width: 992px) {
 	.nav_elem .none_menu{
@@ -230,6 +242,14 @@
 	}
 	.form-contacts{
 		margin-top: 30px;
+	.production .wrap_prod{
+		flex-direction: column;
+	}
+	.nav_left {
+    	display: none;
+	}
+	.production .wrap_prod{
+		margin-top: 30px !important;
 	}
 } 
 
@@ -303,5 +323,11 @@
 	}
 	.gallery-potfolio img{
 		width: 222px;
+	.nav_left{
+		margin-left: 30px;
+	}
+	.production .main_prod{
+		margin-left: 30px !important;
+		margin-right: 25px;
 	}
 }

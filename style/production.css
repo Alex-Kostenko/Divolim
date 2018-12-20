@@ -169,3 +169,6 @@ ul.nav_item li:last-child{
   	justify-content: center;
   	font-weight: bold;
 }
+.back_prod{
+	display: none;
+}
