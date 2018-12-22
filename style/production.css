@@ -1,3 +1,6 @@
+a{
+	text-decoration: none;
+}
 .production{
 
 }
@@ -71,7 +74,7 @@ ul.nav_item li:last-child{
 	display: flex;
 	flex-direction: row;
   	flex-wrap: wrap;
-  	justify-content: center;
+  	justify-content: space-between;
 }
 .main_prod .card:hover{
 	box-shadow: 0 7px 15px 0 rgba(0,0,0,0.7);
@@ -81,7 +84,6 @@ ul.nav_item li:last-child{
 }
 .wrap_card .card{
 	width:281px;
-	margin-right: 14px; 
 	margin-bottom: 14px;
 }
 .wrap_card .card img{

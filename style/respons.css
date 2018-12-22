@@ -76,24 +76,41 @@
 		width: 270px;
 	}
 	body .wrapper-portfolio .portfolio-galerry iframe{
-		width: 400px;
+		width: 80%;
 		height: 224px;
 	}
 	.wrapper-portfolio .portfolio-galerry .gallery-potfolio{
-		width: 400px;
+		width: 80%;
 	}
 	.wrapper-portfolio .portfolio-galerry .gallery-potfolio img{
-		width: 190px;
-		height: 154px;
+		width: 35%;
+	}
+	.wrapper-portfolio .portfolio-galerry .gallery-potfolio img{
+		width: 100%;
+		height: 200px;
+	}
+	#portfolio-galerry, #portfolio-galerry iframe{
+		justify-content: center;
+		text-align: center;
+		margin: 0 auto;
+	}
+	body .wrapper-portfolio .portfolio-galerry .gallery-potfolio, .switch-gallery{
+		justify-content: center;
+		margin: 0 auto;
+	}
+	.portfolio-galerry h3{
+		margin-top: 10px;
 	}
 	.footer-portfolio .fot_container .contacts{
 		margin-left: 0;
 	}
 	.text-contacts .company-description{
-		max-width: 400px;
+		max-width: 70%;
+    margin: 0 auto;
 	}
-	.contacts-str .contacts-element{
+  .contacts-str .contacts-element {
 		width: 250px;
+	}
 	.main_prod .remont_prod{
 		flex-direction: column;
 		justify-content: center;
@@ -168,7 +185,7 @@
 		margin-left: 30px;
 	}
 	.fot_container img, .fot_container iframe{
-		width: 450px;
+		width: 90%;
 		height: 380px;
 	}
 	.production-news .news article{
@@ -178,6 +195,18 @@
 		font-size: 30px;
 	display: block;
 	}
+	.contacts{
+		margin-top: 30px;
+	}
+  .contacts-str{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .contacts-str .contacts-element{
+    margin-top: 30px;
+  }
 } 
 
 @media only screen and (max-width: 992px) {
@@ -240,8 +269,9 @@
 	.company-description{
 		text-align: center;
 	}
-	.form-contacts{
+	.form-contacts {
 		margin-top: 30px;
+	}
 	.production .wrap_prod{
 		flex-direction: column;
 	}
@@ -251,13 +281,21 @@
 	.production .wrap_prod{
 		margin-top: 30px !important;
 	}
+	.main_prod .back_prod{
+		font-size: 30px;
+		display: block;
+	}
+  .main_prod{
+    margin-left: 0;
+    margin: 0 30px;
+  }
 } 
 
 @media only screen and (max-width: 1200px) {
 	.phone, .viber, .location, .mail, .vk, .fb{
 		margin-right: 10px;
 	}
-	.slider-item, .container, .nav_container, .production h2 {
+	.slider-item, .container,  .production h2 {
 		padding-left: 30px;
 	}
 	.dollar{
@@ -312,6 +350,9 @@
 	.contacts-element{
 		width: 300px;
 	}
+  .wrap_prod .main_prod .wrap_card {
+  justify-content: space-evenly;
+  }
 }
 @media only screen and (max-width: 850px) {
 	.portfolio-galerry iframe{
@@ -323,6 +364,7 @@
 	}
 	.gallery-potfolio img{
 		width: 222px;
+	}
 	.nav_left{
 		margin-left: 30px;
 	}

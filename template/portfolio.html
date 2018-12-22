@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../style/main.css">
     <script src="../js/slides-portfolio.js"></script>
     <script src="../js/portfolioShowBlocks.js"></script>
+    <script src="../js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <header class="header-index">
@@ -39,15 +41,15 @@
                 <span>
                     <a href="tel: +380472382117">(0472) 382-117</a>
                     <a href="tel: +380672396114">(067) 239-6114</a>
-                    <a href="tel: +380933365793">(093) 336-5793</a>
+                    <a href="tel: +380731604276">(073) 160-4276</a>
                 </span>
             </div>
             <a href="#">
                 <div class="viber">
                     <div class="svggg">
-                        <a href="viber://chat?number=380672396114"><img src="../image/viber_1-01.svg" alt="viber"></a>
+                        <a href="viber://chat?number=+380731604276"><img src="../image/viber_1-01.svg" alt="viber"></a>
                     </div>
-                    <span><a href="viber://chat?number=380672396114">Viber</a></span>
+                    <span><a href="viber://chat?number=+380731604276">Viber</a></span>
                 </div>
             </a>
             <a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">
@@ -72,7 +74,7 @@
             <div class="vk">
                 <a href=https://vk.com/>
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" class="svg1">
-                        <use href="../image/vk_logo.svg#Capa_1" width="22" height="22" stroke="red" fill="red"></use>
+                        <use href="../image/instagram.svg#insta" width="22" height="22"></use>
                     </svg>
                 </a>
             </div>
@@ -83,10 +85,7 @@
                     </svg>
                 </a>    
             </div>
-            <div class="none_menu">
-                &#9776;
-            </div>
-            <div class="none_menu">
+            <div class="none_menu" onclick="showMenu()">
                 &#9776;
             </div>
         </div>
@@ -105,6 +104,14 @@
             </div>
         </div>
     </header>
+<div id="mobile-menu-block" style="display: none;">
+    <ul>
+        <li><a href="https://www.milovid.com.ua">Главная</a></li>
+        <li><a href="../template/production.html">Продукция</a></li>
+        <li><a href="../template/portfolio.html">Наши роботы</a></li>
+        <li><a href="../template/contacts.html">Контакты</a></li>
+    </ul>
+</div>
     <div class="wrapper-portfolio">
         <div class="menu-portfolio">
             <h3 onclick="showMainPortfolioBlock()">Наші роботи</h3>
@@ -122,7 +129,7 @@
             <h2>Наші роботи</h2>
             <h3>Відео</h3>
             <iframe width="870" height="488"
-                    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                  src="https://www.youtube.com/embed/vNH3vK4KEh4">
             </iframe>
             <h3>Фотогалерея</h3>
             <!-- 11111111111111111111111111111 -->
@@ -277,6 +284,7 @@
             <img src="../image/rimskie/75874.jpeg" alt="ROMAN">
             <img src="../image/rimskie/450877.jpeg" alt="ROMAN"> <!-- 3 -->
             <img src="../image/rimskie/алле.jpg" alt="ROMAN">
+            <iframe style="margin-top: 15px" width="280" height="210" src="https://www.youtube.com/embed/54khXUtp5KE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="subcategory-block" id="bamboo-curtains" style="display: none">
@@ -388,6 +396,7 @@
                 <button type="submit">Надіслати</button>
             </form>
         </div>
+    </div>
         <div class="bottom_container">
             <div class="unicode_st">
                 <div class="footer_title">
@@ -403,6 +412,6 @@
                 
             </div>
         </div>
-    </footer>
+</footer>
 </body>
 </html>

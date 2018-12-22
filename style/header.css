@@ -1,26 +1,26 @@
 header{
-	background: rgba(242, 243, 249, 0.7);
+	background: rgba(255, 231, 0, 1);
 }
 header a {
 	text-decoration: none;
 }
 header a {
-	color: #737380;
+	color: #000000;
 }
 header span a {
 	text-decoration: none;
-	color: #737380;
+	color: #000000;
 }
 header h1{
   	font-size: 26px;
   	line-height: 1.12;
-  	color: #2b2b38;
+  	color: #000000;
   	font-family: 'Arimo', sans-serif;
 }
 
 header h2{
  	font-size: 11px;
-  	color: #737380;
+  	color: #000000;
   	font-family: 'Arimo', sans-serif;
 }
 header a:hover {
@@ -110,10 +110,10 @@ header h2:hover{
 }
 
 /* NOT WORKING */
-svg:hover use{/* NOT WORKING */
-	stroke:#6776e5;
-	fill: #6776e5;/* NOT WORKING */
-}/* NOT WORKING */
+/*svg:hover use{!* NOT WORKING *!*/
+	/*stroke:#6776e5;*/
+	/*fill: #6776e5;!* NOT WORKING *!*/
+/*}!* NOT WORKING *!*/
 /* NOT WORKING */
 
 .nav_container{
@@ -149,4 +149,30 @@ svg:hover use{/* NOT WORKING */
 }
 .dollar span{
 	font-weight: normal;
+}
+#mobile-menu-block a{
+	color: #2b2b38;
+}
+#mobile-menu-block ul li{
+	margin-bottom: 10px;
+}
+
+#mobile-menu-block{
+	letter-spacing: 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: rgba(115, 115, 128, 0.3) 1px solid;
+	font-size: 20px;
+	font-family: 'Arimo', sans-serif;
+	color: #2b2b38;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 20px;
+	width: 100%;
+	background: rgba(242, 243, 249, 0.7);
+	text-align: right;
+}
+#mobile-menu-block ul{
+	margin-right: 20px;
 }

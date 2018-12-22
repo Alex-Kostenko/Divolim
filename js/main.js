@@ -1,3 +1,8 @@
+function showMenu(){
+  let menu = document.getElementById('mobile-menu-block');
+  menu.style.display = "flex";
+}
+
 function showGorizontal() {
   let x = document.getElementsByClassName("wrap_prod");
   for (i = 0; i < x.length; i++) {
