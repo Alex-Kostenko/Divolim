@@ -78,7 +78,7 @@
 					</svg>
 				</a>
 			</div>
-			<div class="fb">
+			<div class="fb" id="Fb">
 				<a href="https://www.facebook.com/com.milovid/">
 					<img src="image/facebook_logo.png" alt="Fb">
 				</a>	
@@ -351,7 +351,7 @@
 					<p class="twoXtwo8Element twoXtwoElementSize"></p>
 				</div>
 				<div class="button-center">
-					<a href="./template/portfolio.html"><button class="more-photo-button">Ще фото &#8194;
+					<a href="/template/portfolio.html"><button class="more-photo-button">Ще фото &#8194;
 						<i class="fa fa-arrow-right" aria-hidden="true"></i></button></a>
 				</div>
 			</div>
@@ -421,13 +421,12 @@
 				Будь ласка, залиште свої контакти<br>
 				і ваше запитання, ми з вами зв'яжемося!
 				</h5>
-				<form method="post" class="form-contacts" action="https://postman-echo.com/post">
+				<form method="post" class="form-contacts" action="send.php">
 						<p class="hint-form"><span>*</span> - поля обов'язкові для заповнення</p>
 						<input type="text" placeholder="* Ваше ім'я" name="name">
 						<input type="email" placeholder="* E-mail" name="email">
 						<input type="tel" placeholder="* Телефон" name="phone">
 						<input type="text" placeholder="* Ваш вопрос" name="question">
-						<textarea name="text"placeholder="Ваш вопрос" maxlength="250" rows="4"></textarea>
 						<button type="submit">Надіслати</button>
 				</form>
 			</div>

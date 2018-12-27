@@ -74,7 +74,7 @@
                     </svg>
                 </a>
             </div>
-            <div class="fb">
+            <div class="fb" id="Fb">
                 <a href="https://www.facebook.com/com.milovid/">
                     <img src="../image/facebook_logo.png" alt="Fb">
                 </a>
@@ -169,7 +169,7 @@
             </div>
             <div class="form-contacts">
                 <p class="form-description">Будь ласка, залишіть Ваші контакти і Ваше питання, ми з Вами зв'яжемось!</p>
-                <form method="post" class="form-contacts" action="https://postman-echo.com/post">
+                <form method="post" class="form-contacts" action="../send.php">
                     <p class="hint-form"><span>*</span> - поля обов'язкові для заповнення</p>
                     <input type="text" placeholder="* Ваше ім'я" name="name">
                     <input type="email" placeholder="* E-mail" name="email">

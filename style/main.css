@@ -5,3 +5,7 @@ body{
 	display: none;
 }
 a {cursor: pointer}
+div#Fb img{
+	width: 34px;
+	height: 34px;
+}
