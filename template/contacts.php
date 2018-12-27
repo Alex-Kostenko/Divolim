@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
     <link rel="stylesheet" href="../style/respons.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="../js/main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -18,11 +20,11 @@
             <a href="../index.php"><img src="../image/logo_milovid.png" alt="Logo"></a>
             <div class="name">
                 <a href="../index.php">
-                    <h1>Миловид</h1>
+                    <h1>Міловід</h1>
 
                     <h2>
-                        Рол-шторы, жалюзи,<br>
-                        окна, двери, роллеты
+                        Рол-штори, жалюзі,<br>
+                        вікна, двері, роллети
                     </h2>
                 </a>
             </div>
@@ -52,8 +54,8 @@
                         <img  src="../image/map.png" alt="location">
                     </div>
                     <span>
-						г. Черкассы <br>
-						бул. Шевченка, 145, офис 117
+						м. Черкаси <br>
+						бул. Шевченка, 145, офіс 117
 					</span>
                 </div>
             </a>
@@ -66,17 +68,15 @@
                 </a>
             </div>
             <div class="vk">
-                <a href=https://vk.com/>
+                <a href="https://www.instagram.com/milovid_com_ua/?hl=ru">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" class="svg1">
                         <use href="../image/instagram.svg#insta" width="22" height="22"></use>
                     </svg>
                 </a>
             </div>
             <div class="fb">
-                <a href=https://www.facebook.com/>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" class="svg1">
-                        <use href="../image/facebook_logo.svg#Capa_1" width="22" height="22"></use>
-                    </svg>
+                <a href="https://www.facebook.com/com.milovid/">
+                    <img src="../image/facebook_logo.png" alt="Fb">
                 </a>
             </div>
             <div class="none_menu" onclick="showMenu()">
@@ -87,10 +87,10 @@
     <div class="nav_container">
         <div class="nav">
             <ul id="one">
-                <li><a href="../index.php">Главная</a></li>
-                <li><a href="production.php">Продукция</a></li>
-                <li><a href="portfolio.php">Наши роботы</a></li>
-                <li><a href="contacts.php">Контакты</a></li>
+                <li><a href="../index.php">Головна</a></li>
+                <li><a href="production.php">Продукція</a></li>
+                <li><a href="portfolio.php">Наші роботи</a></li>
+                <li><a href="contacts.php">Контакти</a></li>
             </ul>
             <div class="dollar" id="two">
                 Курс доллара: 
@@ -110,9 +110,9 @@
 </header>
 <div id="mobile-menu-block" style="display: none;">
     <ul>
-        <li><a href="../index.php">Главная</a></li>
-        <li><a href="production.php">Продукция</a></li>
-        <li><a href="portfolio.php">Наши роботы</a></li>
+        <li><a href="../index.php">Головна</a></li>
+        <li><a href="production.php">Продукція</a></li>
+        <li><a href="portfolio.php">Наші роботи</a></li>
         <li><a href="contacts.php">Контакты</a></li>
     </ul>
 </div>
@@ -121,7 +121,7 @@
     <h2 class="h2-contacts">Контакти</h2>
     <div class="contacts-content">
             <div class="text-contacts">
-                <p class="company-description">Компанія «Миловид» пропонує  виготовлення та встановлення різних видів жалюзі, захисних ролетів,  гаражних воріт, протимоскітних сіток,  вікон та дверей ПВХ, рефлексоролів, маркизів, ремонт жалюзі</p>
+                <p class="company-description">Компанія «Міловід» пропонує  виготовлення та встановлення різних видів жалюзі, захисних ролетів,  гаражних воріт, протимоскітних сіток,  вікон та дверей ПВХ, рефлексоролів, маркизів, ремонт жалюзі</p>
                 <div class="contacts-str">
                     <div class="contacts-element">
                         <i class="fa fa-map-marker-alt" aria-hidden="true"></i>
@@ -192,13 +192,13 @@
             <div class="footer_title">
                 <img src="../image/logo_milovid.png" alt="logo">
                 <div class="wrapper">
-                    <h5>Миловид</h5>
-                    <h6>Изготовление и установка разных видов жалюзи, защитных роллет, гаражных ворот, москитных сеток, окна и двери ПВХ, рефлексоролы, маркизы, ремонт жалюзи.</h6>
+                    <h5>Міловід</h5>
+                    <h6>Виготовлення та встановлення різних видів жалюзі, захисних ролет, гаражних воріт, москітних сіток, вікна і двері ПВХ, рефлексороли, маркізи, ремонт жалюзі.</h6>
                 </div>
             </div>
 
             <div class="copyright">
-                Copyright © 2015-2018. Миловид
+                Copyright © 2015-2018. Міловід
             </div>
 
         </div>

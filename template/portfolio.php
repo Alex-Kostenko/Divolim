@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <link rel="stylesheet" href="../style/reset.css">
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <link rel="stylesheet" href="../style/portfolio.css">
     <link rel="stylesheet" href="../style/header.css">
     <link rel="stylesheet" href="../style/footer.css">
     <link rel="stylesheet" href="../style/main.css">
     <link rel="stylesheet" href="../style/respons.css">
     <link rel="stylesheet" href="../style/main.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="../js/slides-portfolio.js"></script>
     <script src="../js/portfolioShowBlocks.js"></script>
     <script src="../js/main.js"></script>
@@ -25,11 +26,11 @@
                 <a href="../index.php"><img src="../image/logo_milovid.png" alt="Logo"></a>
                     <div class="name">
                         <a href="../index.php">
-                            <h1>Миловид</h1>
+                            <h1>Міловід</h1>
                         
                             <h2>
-                                Рол-шторы, жалюзи,<br>
-                                окна, двери, роллеты
+                                Рол-штори, жалюзі,<br>
+                                вікна, двері, роллети
                             </h2>
                         </a>    
                     </div>   
@@ -59,8 +60,8 @@
                     <img  src="../image/map.png" alt="location">
                 </div>
                     <span>
-                        г. Черкассы <br>
-                        бул. Шевченка, 145, офис 117                    
+                        м. Черкаси <br>
+                        бул. Шевченка, 145, офіс 117                    
                     </span>
                 </div>
             </a>    
@@ -73,18 +74,16 @@
                 </a>
             </div>
             <div class="vk">
-                <a href=https://vk.com/>
+                <a href="https://www.instagram.com/milovid_com_ua/?hl=ru">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" class="svg1">
                         <use href="../image/instagram.svg#insta" width="22" height="22"></use>
                     </svg>
                 </a>
             </div>
             <div class="fb">
-                <a href=https://www.facebook.com/>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" class="svg1">
-                        <use href="../image/facebook_logo.svg#Capa_1" width="22" height="22"></use>
-                    </svg>
-                </a>    
+                <a href="https://www.facebook.com/com.milovid/">
+                    <img src="../image/facebook_logo.png" alt="Fb">
+                </a>   
             </div>
             <div class="none_menu" onclick="showMenu()">
                 &#9776;
@@ -94,10 +93,10 @@
         <div class="nav_container">
             <div class="nav">
                 <ul id="one">
-                    <li><a href="../index.php">Главная</a></li>
-                    <li><a href="production.php">Продукция</a></li>
-                    <li><a href="portfolio.php">Наши роботы</a></li>
-                    <li><a href="contacts.php">Контакты</a></li>
+                    <li><a href="../index.php">Головна</a></li>
+                    <li><a href="production.php">Продукція</a></li>
+                    <li><a href="portfolio.php">Наші роботи</a></li>
+                    <li><a href="contacts.php">Контакти</a></li>
                 </ul>
                 <div class="dollar" id="two">
                     Курс доллара: 
@@ -117,10 +116,10 @@
 </header>
 <div id="mobile-menu-block" style="display: none;">
     <ul>
-        <li><a href="../index.php">Главная</a></li>
-        <li><a href="production.php">Продукция</a></li>
-        <li><a href="portfolio.php">Наши роботы</a></li>
-        <li><a href="contacts.php">Контакты</a></li>
+        <li><a href="../index.php">Головна</a></li>
+        <li><a href="production.php">Продукція</a></li>
+        <li><a href="portfolio.php">Наші роботи</a></li>
+        <li><a href="contacts.php">Контакти</a></li>
     </ul>
 </div>
 <div class="wrapper-portfolio">
@@ -340,8 +339,8 @@
         </div>
         <div class="contacts" >
             <h5>
-                Мы подберем самое лучшее <br>
-                решение именно для вас
+                Ми підберемо найкраще <br>
+                 рішення саме для вас
             </h5>
             <ul>
                 <li>
@@ -350,8 +349,8 @@
                             <img src="../image/map_foot.png" alt="map">
                         </div>
                     </a>
-                    <a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">г. Черкассы, бул.Шевченка, 145,
-                        офис 117, (1 -й этаж)</a>
+                    <a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">м Черкаси, бул.Шевченка, 145,
+                    офіс 117, (1-й поверх)</a>
                     </li>
                     <li>
                         <a href="https://goo.gl/maps/P3WDzGn8AUt">
@@ -393,8 +392,8 @@
             </div>
             <div class="forms">
                 <h5>
-                Пожалуйста, оставьте свои контакты<br>
-                и ваш вопрос, мы с вами свяжемся!
+                Будь ласка, залиште свої контакти<br>
+                і ваше запитання, ми з вами зв'яжемося!
             </h5>
             <form method="post" class="form-contacts" action="https://postman-echo.com/post">
                 <p class="hint-form"><span>*</span> - поля обов'язкові для заповнення</p>
@@ -412,12 +411,12 @@
                 <div class="footer_title">
                     <img src="../image/logo_milovid.png" alt="logo">
                     <div class="wrapper">
-                        <h5>Миловид</h5>
-                        <h6>Изготовление и установка разных видов жалюзи, защитных роллет, гаражных ворот, москитных сеток, окна и двери ПВХ, рефлексоролы, маркизы, ремонт жалюзи.</h6>
+                        <h5>Міловід</h5>
+                        <h6>Виготовлення та встановлення різних видів жалюзі, захисних ролет, гаражних воріт, москітних сіток, вікна і двері ПВХ, рефлексороли, маркізи, ремонт жалюзі.</h6>
                     </div>
                 </div>
                 <div class="copyright">
-                    Copyright © 2015-2018. Миловид
+                    Copyright © 2015-2018. Міловід
                 </div>
                 
             </div>
