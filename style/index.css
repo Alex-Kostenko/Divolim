@@ -118,7 +118,7 @@ body{
   display: flex;
   margin-top: 62px;
 }
-.svg-item{
+.svg-item a{
   display: flex;
   flex-direction: column;
   align-items: center;

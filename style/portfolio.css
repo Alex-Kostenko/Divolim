@@ -132,3 +132,19 @@ a{
 .footer-portfolio{
   margin-top: 100px;
 }
+div.gallery-potfolio  {
+    position: relative;
+}
+.clone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(59, 59, 59, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clone img {
+    width: 100%;
+    height: auto;
+}
