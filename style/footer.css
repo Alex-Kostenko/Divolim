@@ -25,12 +25,13 @@ footer a{
 	max-width: 1200px;
 	margin:0 auto;
 }
-.map{
-	
-}
 .contacts{
 	display: flex;
 	flex-direction: column;
+	margin: 0 80px;
+}
+.contacts a:hover{
+	color: #6776e5;
 }
 .contacts .cont_img{
 	height: 45px;
@@ -66,15 +67,6 @@ footer a{
 .forms span{
 	color: #ff6675;
 }
-.forms form{
-	width: 385px;
-}
-.forms form span{
-	color: #ff6675;
-	margin-right: -25px;
-	position: relative;
-	z-index: 999;
-}
 .forms input{
 	height: 42px;
 	width: 355px;
@@ -97,11 +89,15 @@ footer a{
 	font-family: 'Arimo', sans-serif;
 }
 .right_cont{
+
+}
+.forms form {
 	display: flex;
-	justify-content: flex-end;
-	margin-top: -10px;
-	margin-right: 17px;
-	margin-bottom: 10px;
+	flex-direction: column;
+}
+.forms form p{
+	align-self: flex-end;
+	margin-right: 5px;
 }
 .forms textarea{
 	height: 103px;
@@ -113,25 +109,30 @@ footer a{
 	font-family: 'Arimo', sans-serif;
   	font-size: 15px;
   	padding: 16px 16px;
-  	margin-left: -15px;
   	-moz-transition: box-shadow 0.2s  ease;
 	-o-transition: box-shadow 0.2s  ease;
 	-webkit-transition: box-shadow 0.2s ease;
 	resize: none;
 }
-input[type="submit"] { 
-	font-family: 'Arimo', sans-serif;
-    height: 45px;
-	width: 180px;
-	padding: 16px 45px;
-	border-radius: 22.5px;
-	background-color: #ffe700; 
+.forms form button{
+	width: 200px;
+	height: 45px;
+	background: #ffe700;
+	border: none;
+	border-radius: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Arimo", sans-serif;
 	font-size: 15px;
-	line-height: 1.33;
+	align-self: flex-end;
 	color: #2b2b38;
-	margin-top: 20px;
-	padding-top: 12px;
-   }
+	margin-top: 10px;
+}
+.forms form button:hover{
+	box-shadow: 0px 7px 15px 0px  rgba(0,0,0,0.3);
+	cursor: pointer;
+}
 .forms form input:not([type="submit"]):focus,
 .forms form input:not([type="submit"]):hover,
 .forms form textarea:focus,
@@ -193,4 +194,7 @@ input[type="submit"] {
   font-size: 13px;
   line-height: 1.54;
   color: #a3a9d9;
+}
+.remont_prod{
+	margin-bottom: 80px;
 }

@@ -1,0 +1,12 @@
+body{
+	background: rgba(242, 243, 249, 1) !important;
+}
+.none_menu{
+	display: none;
+	cursor: pointer
+}
+a {cursor: pointer}
+div#Fb img{
+	width: 34px;
+	height: 34px;
+}
