@@ -6,7 +6,7 @@ function showMain() {
   document.getElementById('showMain').style.display="flex";
 }
 $(document).ready(function () {
-    $('a img').click(function () {
+    $('#js-main-gallery a img').click(function () {
         var o=$(this).parent();
         var url=o.find('img').attr('src');
         var html='<a class="clone"><img src="'+url+'" /></a>'

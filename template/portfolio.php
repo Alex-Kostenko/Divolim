@@ -144,7 +144,7 @@
               src="https://www.youtube.com/embed/vNH3vK4KEh4">
         </iframe>
         <h3>Фотогалерея</h3>
-        <div class="gallery-potfolio">
+        <div class="gallery-potfolio" id="js-main-gallery">
             <a><img src="../image/anti_mos/IMG_2396.JPG" alt="ANTI MOSQUITO"></a>
             <a><img src="../image/anti_mos/IMG_2397.JPG" alt="ANTI MOSQUITO"></a>
             <a><img src="../image/anti_mos/IMG_2402.JPG" alt="ANTI MOSQUITO"></a>
