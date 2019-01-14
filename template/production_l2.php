@@ -54,8 +54,8 @@
 			<a href="https://goo.gl/maps/P3WDzGn8AUt" target="_blank">
 				<div class="location">
 					<div class="svggg">
-					<img  src="../image/map.png" alt="location">
-				</div>
+						<img  src="../image/map.png" alt="location">
+					</div>
 					<span>
 						м. Черкаси <br>
                         бул. Шевченка, 145, офіс 117 						
@@ -510,7 +510,7 @@
 						<input type="text" placeholder="* Ваше ім'я" name="name">
 						<input type="email" placeholder="* E-mail" name="email">
 						<input type="tel" placeholder="* Телефон" name="phone">
-						<input type="text" placeholder="* Ваш вопрос" name="question">
+						<input type="text" placeholder="* Ваше запитання" name="question">
 						<button type="submit">Надіслати</button>
 				</form>
 			</div>
@@ -527,7 +527,6 @@
 				<div class="copyright">
 					Copyright © 2015-2018. Миловид
 				</div>
-				
 			</div>
 		</div>
 	</footer>

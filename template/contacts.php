@@ -175,7 +175,7 @@
                     <input type="text" placeholder="* Ваше ім'я" name="name">
                     <input type="email" placeholder="* E-mail" name="email">
                     <input type="tel" placeholder="* Телефон" name="phone">
-                    <input type="text" placeholder="* Ваш вопрос" name="question">
+                    <input type="text" placeholder="* Ваше запитання" name="question">
                     <button type="submit">Надіслати</button>
                 </form>
             </div>
