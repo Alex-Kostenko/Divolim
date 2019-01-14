@@ -13,10 +13,12 @@
     <link rel="stylesheet" href="../style/respons.css">
     <link rel="stylesheet" href="../style/main.css">
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
     <script src="../js/slides-portfolio.js"></script>
     <script src="../js/portfolioShowBlocks.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/gallary.js"></script>
+
     <link rel="icon" href="../image/favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>

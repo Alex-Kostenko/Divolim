@@ -130,22 +130,22 @@
 				</ul>
 			</div>
 			<div class="main_prod">
-				<h5>Ролові штори</h5>
+				<h5>РОЛОВІ ШТОРИ</h5>
 				<div class="title">
 					<p>
-						Ролові штори предствляет собою тканинне полотно, намотується на розташований зверху горизонтальний вал. Підйом полотна може здійснюватися як вручну, за допомогою механізму ланцюжка або пружини, так і за допомогою електроприводу.
+						Ролові штори являють собою тканинне полотно, яке намотується на розташований вгорі горизонтальний вал. Підйом полотна може здійснюватися як вручну, за допомогою механізму ланцюжка або пружини, так і за допомогою електроприводу.
 					</p>
 					<p>
-						Ролові штори дають нові можливості в оформленні дизайну будь-яких приміщень -можливість надати офісу або квартирі неповторність і оригінальність. Ваше вікно буде виглядати стильно.
+						Ролові штори дають нові можливості в оформленні дизайну будь-яких приміщень - можливість надати офісу або квартирі неповторність і оригінальність. Ваше вікно буде виглядати стильно.
 					</p>
 					<p>
-						Ролові штори захистять Вашу квартиру від сторонніх поглядів з вулиці і від попадання прямих сонячних лучей.Ми робимо кілька систем ролів штор, різноманітних за дизайном, кольором, фактурі тканини. Склад тканин - бавовна, поліестер, льон. Тканини просочені пиловідштовхуючими, протівовигораемимі, протівосмінающімі, водовідштовхувальними просоченнями а також ультратонкі покриття з виворітного боку по технології ламінування повністю відбиває сонячні промені. Основна функція ролів штор - світлозахист.
+						Основна функція ролових штор - світлозахист. Ролові штори захистять Вашу квартиру від сторонніх поглядів з вулиці і від попадання прямих сонячних променів. Ми робимо кілька систем ролових штор, різноманітних за дизайном, кольором, фактурою тканини. Склад тканин: бавовна, поліестер, льон. Тканини мають здатність відштовхувати пил, воду, не вигоряють, не мнуться, а також мають ультратонке покриття з виворітного боку по технології ламінування, яке повністю відбиває сонячні промені
 					</p>
 					<p>
-						Сьогодні великий попит мають штори «День-ніч» - це новий різновид системи ролів штори.
+						Сьогодні великий попит мають штори «День-ніч» - це новий різновид системи ролових штор.
 					</p>
 					<p>
-						Оригінальне рішення захисту приміщення від сонця - круговий рух тканини і чергування смуг в ній - забезпечує плавно регулювати ступінь освітленості в приміщенні.
+						Оригінальне рішення захисту приміщення від сонця - круговий рух тканини і чергування смуг в ній - забезпечує плавне регулювання ступені освітленості в приміщенні
 					</p>
 				</div>
 				<div class="wrap_card">
@@ -200,63 +200,63 @@
 			</div>
 			<div class="wrap_card">
 				<div class="card">
-					<a href="production_l2.php">
+					<a >
 						<div class="black_bg">
 							<img id="img"  src="../image/rol_shtoru/universal/JQ7iAMU.jpeg" alt="roll_shtoru">
 						</div>
 					</a>
 				</div>
 				<div class="card">
-					<a href="#">
+					<a >
 						<div class="black_bg">
 							<img id="img" src="../image/rol_shtoru/universal/THnfAQA.jpeg" alt="roll_shtoru">
 						</div>
 					</a>
 				</div>
 				<div class="card">
-					<a href="#">
+					<a >
 						<div class="black_bg">
 							<img id="img" src="../image/rol_shtoru/universal/QOkQ9PB.jpeg" alt="roll_shtoru">
 						</div>
 					</a>
 				</div>
 				<div class="card">
-					<a href="#">
+					<a >
 						<div class="black_bg">
 							<img id="img" src="../image/rol_shtoru/universal/9anfwig.jpeg" alt="roll_shtoru">
 						</div>
 					</a>
 				</div>
 				<div class="card">
-					<a href="#">
+					<a >
 						<div class="black_bg">
 							<img id="img" src="../image/rol_shtoru/universal/AnXPQb8.jpeg" alt="roll_shtoru">
 						</div>
 					</a>
 				</div>
 				<div class="card">
-					<a href="#">
+					<a >
 						<div class="black_bg">
 							<img id="img" src="../image/rol_shtoru/universal/jP3B2oR.jpeg" alt="roll_shtoru">
 						</div>
 					</a>
 				</div>
 				<div class="card">
-					<a href="#">
+					<a >
 						<div class="black_bg">
 							<img id="img" src="../image/rol_shtoru/universal/ptda5UC.jpeg" alt="roll_shtoru">
 						</div>
 					</a>
 				</div>
 				<div class="card">
-					<a href="#">
+					<a >
 						<div class="black_bg">
 							<img id="img" src="../image/rol_shtoru/universal/STDVtlQ.jpeg" alt="roll_shtoru">
 						</div>
 					</a>
 				</div>
 				<div class="card">
-					<a href="#">
+					<a >
 						<div class="black_bg">
 							<img id="img" src="../image/rol_shtoru/universal/xcKruEh.jpeg" alt="roll_shtoru">
 						</div>
@@ -278,78 +278,39 @@
 				<div class="back_prod">
 					<a onclick="showMain()">&larr;</a>	
 				</div>
-			<h5>Відкритого типа</h5>
+			<h5>ВІДКРИТИЙ ТИП</h5>
 			<div class="title">
 				<p>
-					Відкриті рулонні жалюзі - це видатний неозброєним оком вал з намотаною тканиною. Конструктивно нижня планка фіксується до стулки за допомогою потужних магнітів. Механізм всього пристрою не прикритий, звідси і характерну назву.
+					Ролові штори відкритого типу складаються з верхнього робочого валу, на якому закріплене тканинне полотно. Нижня частина полотна також має металеву планку, що дозволяє зберегти форму штори. Завдяки механічній системі, полотно намотується на верхній вал. Таким чином, ви можете регулювати рівень затемнення в кімнаті. Багато в чому ця здатність залежить від типу тканини. Вона може бути прозорою, напівпрозорою і абсолютно не пропускати світло.
 				</p>
 			</div>
 			<div class="wrap_card">
 				<div class="card">
-					<a href="production_l2.php">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/open/открытого.jpeg" alt="">
-						</div>
-
-					</a>
-				</div>
-				<div class="card">
-					<a href="#">
+					<a >
 						<div class="black_bg">
 							<img id="img"  src="../image/rol_shtoru/open/открытого.jpeg" alt="">
 						</div>
 					</a>
 				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/open/открытого.jpeg" alt="">
-						</div>
-					</a>
+				<div class="wrap_card">
+					<div class="card">
+						<a >
+							<div class="black_bg">
+								<img id="img"  src="../image/rol_shtoru/open/Xf99P5u.jpeg" alt="">
+							</div>
+						</a>
+					</div>
 				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/open/открытого.jpeg" alt="">
-						</div>
-					</a>
+				<div class="wrap_card">
+					<div class="card">
+						<a >
+							<div class="black_bg">
+								<img id="img"  src="../image/rol_shtoru/open/ufLdwM4.jpeg" alt="">
+							</div>
+						</a>
+					</div>
 				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/open/открытого.jpeg" alt="">
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/open/открытого.jpeg" alt="">
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/open/открытого.jpeg" alt="">
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/open/открытого.jpeg" alt="">
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/open/открытого.jpeg" alt="">
-						</div>
-					</a>
-				</div>
-				</div>
+			</div>
 			</div>
 		</div>
 		<div class="wrap_prod" id="showClose" style="display: none;">
@@ -365,15 +326,15 @@
 				<div class="back_prod">
 					<a onclick="showMain()">&larr;</a>	
 				</div>
-			<h5>Закритого типа</h5>
+			<h5>ЗАКРИТИЙ ТИП</h5>
 			<div class="title">
 				<p>
-					Закрита система Наявність короба змінює зовнішній вигляд конструкції, робить її обтічної і більш презентабельною в загальному інтер'єрі приміщення. Це закриті рулонні жалюзі, які по обидва боки полотна мають напрямні. Присутність короба відволікає від виду вала, на тканина не сідає пил, продовжуючи тим самим термін служби цієї сучасної фіранки. Якщо поєднуються в кольорі і текстурі класичні та роликові штори, на вікні вони мають вигляд суцільного готового виробу.
+					Ролети закритого типу мають короб, що приховує полотно в зібраному вигляді. Короб виконує не тільки декоративну функцію, але і захисну, запобігаючи пошкодженню, попаданню пилу і бруду в робочий механізм, що істотно подовжує термін служби рулонних штор.
 				</p>
 			</div>
 			<div class="wrap_card">
 				<div class="card">
-					<a href="production_l2.php">
+					<a>
 						<div class="black_bg">
 							<img id="img"  src="../image/rol_shtoru/close/д-н_закрытого.jpg" alt="">
 						</div>
@@ -381,61 +342,11 @@
 					</a>
 				</div>
 				<div class="card">
-					<a href="#">
+					<a>
 						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/close/д-н_закрытого.jpg" alt="">
+							<img id="img"  src="../image/rol_shtoru/close/4.jpg" alt="">
 						</div>
 					</a>
-				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/close/д-н_закрытого.jpg" alt="">
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/close/д-н_закрытого.jpg" alt="">
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/close/д-н_закрытого.jpg" alt="">
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/close/д-н_закрытого.jpg" alt="">
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/close/д-н_закрытого.jpg" alt="">
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/close/д-н_закрытого.jpg" alt="">
-						</div>
-					</a>
-				</div>
-				<div class="card">
-					<a href="#">
-						<div class="black_bg">
-							<img id="img"  src="../image/rol_shtoru/close/д-н_закрытого.jpg" alt="">
-						</div>
-					</a>
-				</div>
 				</div>
 			</div>
 			</div>
