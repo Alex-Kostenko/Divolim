@@ -292,62 +292,6 @@
 							</div>
 						</a>
 					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/gorizont/1K3Komv.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/gorizont/1K3Komv.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/gorizont/1K3Komv.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/gorizont/1K3Komv.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/gorizont/1K3Komv.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/gorizont/1K3Komv.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/gorizont/1K3Komv.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/gorizont/1K3Komv.jpeg" alt="">
-							</div>
-						</a>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -512,34 +456,6 @@
 							</div>
 						</a>
 					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/plisse/bqvIaNH.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/plisse/bqvIaNH.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/plisse/bqvIaNH.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/plisse/bqvIaNH.jpeg" alt="">
-							</div>
-						</a>
-					</div>
 				</div>
 			</div>
 		</div> 
@@ -594,41 +510,6 @@
 						<a href="#">
 							<div class="black_bg">
 								<img id="img" src="../image/rimskie/алле.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/rimskie/05.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/rimskie/05.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/rimskie/05.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/rimskie/05.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/rimskie/05.jpg" alt="">
 							</div>
 						</a>
 					</div>
@@ -709,27 +590,6 @@
 							</div>
 						</a>
 					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/bamb/Hgn1JNi.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/bamb/Hgn1JNi.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/bamb/Hgn1JNi.jpeg" alt="">
-							</div>
-						</a>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -797,28 +657,7 @@
 					<div class="card">
 						<a href="#">
 							<div class="black_bg">
-								<img id="img" src="../image/anti_mos/moskitnaya-setka_1.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
 								<img id="img" src="../image/anti_mos/sBN8HzM.jpeg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/anti_mos/IMG_2396.JPG" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/anti_mos/IMG_2396.JPG" alt="">
 							</div>
 						</a>
 					</div>
@@ -869,48 +708,6 @@
 						<a href="#">
 							<div class="black_bg">
 								<img id="img" src="../image/rolletu/r7_XyZgzuDA.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/rolletu/4FaN3YD5FCU.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/rolletu/4FaN3YD5FCU.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/rolletu/4FaN3YD5FCU.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/rolletu/4FaN3YD5FCU.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/rolletu/4FaN3YD5FCU.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/rolletu/4FaN3YD5FCU.jpg" alt="">
 							</div>
 						</a>
 					</div>
@@ -968,41 +765,6 @@
 						<a href="#">
 							<div class="black_bg">
 								<img id="img" src="../image/okna_dveri/lehQBpbLsNo.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/okna_dveri/2ph-DQDm6bE.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/okna_dveri/2ph-DQDm6bE.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/okna_dveri/2ph-DQDm6bE.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/okna_dveri/2ph-DQDm6bE.jpg" alt="">
-							</div>
-						</a>
-					</div>
-					<div class="card">
-						<a href="#">
-							<div class="black_bg">
-								<img id="img" src="../image/okna_dveri/2ph-DQDm6bE.jpg" alt="">
 							</div>
 						</a>
 					</div>
