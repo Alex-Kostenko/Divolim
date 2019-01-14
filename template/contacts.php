@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Milovid - Контакти</title>
+    <title>Миловид - Контакти</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../style/reset.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
@@ -21,7 +21,7 @@
             <a href="../index.php"><img src="../image/logo_milovid.png" alt="Logo"></a>
             <div class="name">
                 <a href="../index.php">
-                    <h1>Міловід</h1>
+                    <h1>Миловид</h1>
 
                     <h2>
                         Рол-штори, жалюзі,<br>
@@ -193,13 +193,13 @@
             <div class="footer_title">
                 <img src="../image/logo_milovid.png" alt="logo">
                 <div class="wrapper">
-                    <h5>Міловід</h5>
+                    <h5>Миловид</h5>
                     <h6>Виготовлення та встановлення різних видів жалюзі, захисних ролет, гаражних воріт, москітних сіток, вікна і двері ПВХ, рефлексороли, маркізи, ремонт жалюзі.</h6>
                 </div>
             </div>
 
             <div class="copyright">
-                Copyright © 2015-2018. Міловід
+                Copyright © 2015-2018. Миловид
             </div>
 
         </div>
