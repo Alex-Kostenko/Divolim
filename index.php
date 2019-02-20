@@ -103,9 +103,9 @@
 
 						if ($quotes = @file("$textfile")) {$quote = rand(0, sizeof($quotes)-1);
 
-						echo $quotes[$quote]; //вывод рандомного текста
+						echo $quotes[$quote]; 
 
-						}else{echo ("Нет рандомного контента");} //вывод сообщения, если файл не найден 
+						}else{echo ("Нет контента");} //вывод сообщения, если файл не найден 
 						?>
 
 					</span>

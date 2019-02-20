@@ -174,3 +174,6 @@ ul.nav_item li:last-child{
 .back_prod{
 	display: none;
 }
+.wrap_card .card a{
+	cursor: default;
+}

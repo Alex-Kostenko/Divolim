@@ -124,7 +124,7 @@ $error='
 </html>
 ';
 
-if (mail("alexkostenko67@gmail.com",
+if (mail("milovid@ukr.net",
  "Форма с сайта, позвонить: ".$phone, 
  "ФИО:  ".$name."\r\nE-mail: ".$email."\r\nТелефон:  ".$phone. "\r\nВопрос:  ".$question,
  "From: admin@milovid.com.ua \r\n"))

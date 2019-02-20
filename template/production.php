@@ -280,9 +280,26 @@
 				<div class="back_prod">
 					<a onclick="showMain()">&larr;</a>	
 				</div>
-				<h5>Горизонтальні жалюзі</h5>
+				<h5>ГОРИЗОНТАЛЬНІ ЖАЛЮЗІ</h5>
 				<div class="title">
-					Традиційно горизонтальні жалюзі обирають при оформленні офісних  та виробничих приміщень. Але поява різноманітної кольорової палітри  дозволяє підібрати алюміневі жалюзі, які ідеально доповнять будь-який інтер‘єр.
+					<p>
+						Замовляючи горизонтальні жалюзі, ви робите прекрасний вибір для вікон. Стандартні жалюзі, ламелі яких завширшки 16 мм і 25 мм, одні з найбільш популярних і затребуваних систем, що застосовуються в самих різних стилях і інтер'єрах.
+					</p>
+					<p>
+						 Для виготовлення використовується тільки алюміній: завдяки його вогнестійкості і екологічної безпеки конструкції з алюмінію надійніше, комфортніше і довговічніше, ніж жалюзі пластикові горизонтальні.
+					</p>
+					<p>
+						Візуально розширюють і «оживлюють» простір, прості в управлінні і не вимагають особливих зусиль для прибирання, а широка палітра кольорів дозволяє вибрати бажаний відтінок.
+					</p>
+					<p>
+						Алюмінієві горизонтальні жалюзі можна встановлювати безпосередньо на будь-яке вікно. Такий тип підходить для оформлення не тільки стандартних вікон, але й аркових.
+					</p>
+					<p>
+						Ціна на горизонтальні жалюзі досить доступна, що робить їх популярними на ринку товарів для вікон.
+					</p>
+					<p>
+						Горизонтальні жалюзі системи Венус на пластикові вікна кріпляться впритул до скла, зводячи до мінімуму так званий «парниковий ефект», коли тепло накопичується в зазорі між ламелями і склом. Мають спрощену систему управління і забезпечують практично ідеальну світлоізоляцію. Вірний вибір для спалень, фотостудій і місць, де потрібне ретельне затемнення. Текстури та кольори ламелей аналогічні стандартним жалюзі.
+					</p>
 				</div>
 				<div class="wrap_card">
 					<div class="card">
@@ -330,63 +347,63 @@
 				</div>
 				<div class="wrap_card">
 					<div class="card">
-						<a href="production_l2.php">
+						<a href="">
 							<div class="black_bg">
 								<img id="img"  src="../image/vertical/9WPiIKY.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/vertical/AasvNID.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/vertical/CWk9tF2.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/vertical/e4DUh9p.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/vertical/ecsys5o.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/vertical/GuufvFe.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/vertical/k2WmtE6.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/vertical/VNqoSpk.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/vertical/Mkx9YOq.jpeg" alt="">
 							</div>
@@ -414,43 +431,55 @@
 				<div class="back_prod">
 					<a onclick="showMain()">&larr;</a>	
 				</div>
-				<h5>Плісе</h5>
+				<h5>ЖАЛЮЗІ ПЛІСЕ</h5>
 				<div class="title">
 					<p>
-						Штори плісе  - вдалий вибір для вікон з нестандартними  формами  та розмірами . Придбати сонцезахисні системи для таких вікон може бути проблематично, а штори плісе допоможуть закрити найбільші віконні отвори. Також немає труднощів із встановленням жалюзі на різних віконних поверхнях, які мають нахил – мансардне вікно чи частина скляного даху.
+						Штopи пліcce - цe дуже opігінaльний і унікaльний cпocіб зaхисту від coнячниx променів, a тaкож гарне дoпoвнeння до інтepьepу. Вони дуже ніжні і незвичні.  
+					</p>
+					<p>
+						Штори плісе — вдалий вибір для вікон з нестандартними формами та розмірами . Придбати сонцезахисні системи для таких вікон може бути проблематично, а штори плісе допоможуть закрити найбільші віконні отвори. Також немає труднощів із встановленням жалюзі на різних віконних поверхнях, які мають нахил – мансардне вікно, чи частина скляного даху.
+					</p>
+					<p>
+						Штори плісе, дуже схожі за своїм виглядом на жалюзі горизонтальні, тільки замість стандартних смужок-ламелей використовується тканина, яка збирається в невеликі складки (схоже на гармошку).
+					</p>
+					<p>
+						Матеріал з якого виготовляється тканина - поліестер, закріплюється на невеликий алюмінієвий профіль, який практично не помітний на вікні. Це компромісне рішення між звичайними шторами і жалюзі, плісе має незаперечну перевагу перед іншими, збираючись при складанні в щільні складки і стаючи практично непомітними на вікні.
+					</p>
+					<p>
+						Тканини безпечні і не виділяють шкідливих речовин при нагріванні на сонці, не притягують пил, зберігають колір і форму.
 					</p>
 				</div>
 				<div class="wrap_card">
 					<div class="card">
-						<a href="production_l2.php">
+						<a href="">
 							<div class="black_bg">
 								<img id="img"  src="../image/plisse/bqvIaNH.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/plisse/FSKqJ8a.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/plisse/pDBHKIn.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/plisse/TxqMziS.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/plisse/zjohNTz.jpeg" alt="">
 							</div>
@@ -486,28 +515,28 @@
 				</div>
 				<div class="wrap_card">
 					<div class="card">
-						<a href="production_l2.php">
+						<a href="">
 							<div class="black_bg">
 								<img id="img"  src="../image/rimskie/05.jpg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/rimskie/450877.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/rimskie/75874.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/rimskie/алле.jpg" alt="">
 							</div>
@@ -549,42 +578,42 @@
 				</div>
 				<div class="wrap_card">
 					<div class="card">
-						<a href="production_l2.php">
+						<a href="">
 							<div class="black_bg">
 								<img id="img"  src="../image/bamb/Hgn1JNi.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/bamb/maitvCk.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/bamb/Изображение 003.jpg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/bamb/Изображение 005.jpg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/bamb/Изображение 009.jpg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/bamb/Изображение 013.jpg" alt="">
 							</div>
@@ -615,47 +644,48 @@
 				<h5>Протимоскитні сітки</h5>
 				<div class="title">
 					<p>
-						Сучасні антимоскітні сітки являють собою фіксовані конструкції, які складаються з рамки і сітки, натягнутої на неї. Такі нескладні конструкції служать надійним захистом від будь-яких (включаючи самих дрібних) комах. Крім того,протимоскітні сітки не допускають попадання в будинок тополиного пуху, сміття, викинутого з верхніх поверхів, пилу та інших небажаних факторів нормального життя. Основною перевагою протимоскітні сіток є їх висока ефективність: вони насправді здатні надійно захистити будинок від шкідливих порушників мирного спокою. Важливо і те, що протимоскітні сітки мають довгий термін служби: як правило, кілька років бездоганної роботи. Крім того, вони мають невисоку ціну і дуже прості в експлуатації. 
+						Сучасні антимоскітні сітки являють собою фіксовані конструкції, які складаються з рамки і сітки, натягнутої на неї. Такі нескладні конструкції служать надійним захистом від будь-яких (включаючи самих дрібних) комах. Крім того,протимоскітні сітки не допускають попадання в будинок тополиного пуху, сміття, викинутого з верхніх поверхів, пилу та інших небажаних факторів нормального життя. Основною перевагою протимоскітні сіток є їх висока ефективність: вони насправді здатні надійно захистити будинок від шкідливих порушників мирного спокою. Важливо і те, що протимоскітні сітки мають довгий термін служби: як правило, кілька років бездоганної роботи. Крім того, вони мають невисоку ціну і дуже прості в експлуатації. <br>
+						Наша виробнича компанія, пропонує великий вибір комплектуючих і москітні сітки на вікна, двері, балкони та будь-які інші отвори різної конфігурації і типу конструкції.
  					</p>
 				</div>
 				<div class="wrap_card">
 					<div class="card">
-						<a href="production_l2.php">
+						<a href="">
 							<div class="black_bg">
 								<img id="img"  src="../image/anti_mos/IMG_2396.JPG" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/anti_mos/IMG_2397.JPG" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/anti_mos/IMG_2402.JPG" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/anti_mos/kAaHDdV.jpeg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/anti_mos/moskitnaya-setka_1.jpg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/anti_mos/sBN8HzM.jpeg" alt="">
 							</div>
@@ -691,21 +721,21 @@
 				</div>
 				<div class="wrap_card">
 					<div class="card">
-						<a href="production_l2.php">
+						<a href="">
 							<div class="black_bg">
 								<img id="img"  src="../image/rolletu/4FaN3YD5FCU.jpg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/rolletu/Di08GnD0Xp0.jpg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/rolletu/r7_XyZgzuDA.jpg" alt="">
 							</div>
@@ -741,28 +771,28 @@
 				</div>
 				<div class="wrap_card">
 					<div class="card">
-						<a href="production_l2.php">
+						<a href="">
 							<div class="black_bg">
 								<img id="img"  src="../image/okna_dveri/2ph-DQDm6bE.jpg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/okna_dveri/G6CLgT2asxM.jpg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/okna_dveri/JdCl7BW3a40.jpg" alt="">
 							</div>
 						</a>
 					</div>
 					<div class="card">
-						<a href="#">
+						<a href="">
 							<div class="black_bg">
 								<img id="img" src="../image/okna_dveri/lehQBpbLsNo.jpg" alt="">
 							</div>

@@ -125,8 +125,8 @@
 				<h4>Ролові штори</h4>
 				<ul class="nav_item">	
 						<li><a onclick="showUniversal()">День-ніч</a></li>
-						<li><a onclick="showOpen()">Відкритого типа</a></li>
-						<li><a onclick="showClose()">Закритого типа</a></li>
+						<li><a onclick="showOpen()">Відкритий тип</a></li>
+						<li><a onclick="showClose()">Закритий тип</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -161,7 +161,7 @@
 						<a onclick="showOpen()">
 							<img src="../image/rol_shtoru/open/открытого.jpeg" alt="">
 							<div class="bottom_wrap_roll">
-								Відкритого типа
+								Відкритий тип
 							</div>
 						</a>
 					</div>
@@ -169,7 +169,7 @@
 						<a onclick="showClose()">
 							<img src="../image/rol_shtoru/close/д-н_закрытого.jpg" alt="">
 							<div class="bottom_wrap_roll">
-								Закритого типа
+								Закритий тип
 							</div>
 						</a>
 					</div>
@@ -181,8 +181,8 @@
 				<h4>Ролові штори</h4>
 				<ul class="nav_item">	
 						<li><a onclick="showUniversal()">День-ніч</a></li>
-						<li><a onclick="showOpen()">Відкритого типа</a></li>
-						<li><a onclick="showClose()">Закритого типа</a></li>
+						<li><a onclick="showOpen()">Відкритий тип</a></li>
+						<li><a onclick="showClose()">Закритий тип</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -270,8 +270,8 @@
 				<h4>Ролові штори</h4>
 				<ul class="nav_item">	
 						<li><a onclick="showUniversal()">День-ніч</a></li>
-						<li><a onclick="showOpen()">Відкритого типа</a></li>
-						<li><a onclick="showClose()">Закритого типа</a></li>
+						<li><a onclick="showOpen()">Відкритий тип</a></li>
+						<li><a onclick="showClose()">Закритий тип</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
@@ -318,8 +318,8 @@
 				<h4>Ролові штори</h4>
 				<ul class="nav_item">	
 						<li><a onclick="showUniversal()">День-ніч</a></li>
-						<li><a onclick="showOpen()">Відкритого типа</a></li>
-						<li><a onclick="showClose()">Закритого типа</a></li>
+						<li><a onclick="showOpen()">Відкритий тип</a></li>
+						<li><a onclick="showClose()">Закритий тип</a></li>
 				</ul>
 			</div>
 			<div class="main_prod">
